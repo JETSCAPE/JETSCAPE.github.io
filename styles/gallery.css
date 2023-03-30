@@ -1,36 +1,35 @@
-/* CSS Style Sheet for Gallery Page */
-
-.gallery {
-    margin: 5px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin: 2px;
-    border: 1px solid #ccc;
-    width: 250px;
-  }
-  
-.gallery:hover {
-  border: 1px solid #777;
+.intro { 
+  text-align: center; 
+  font-family: Arial;
 }
 
-.gallery_img {
+h2 { 
+  font-size: 36px;
+}
+
+p {
+  font-size: 14pt;
+}
+
+#image-gallery { 
+  width: 600px; 
+  margin: 20px auto;
+}
+
+#current-image { 
   width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  align-self: center;
 }
 
-.desc {
-  padding: 15px;
-  text-align: center;
-  font-size: small;
+#image-thumbs { 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
 }
 
-table {
-  border-collapse: collapse;
-  width: 80%;
-  text-align: center;
+.thumb { 
+  width: 80px; 
+  height: 80px; 
+  object-fit: cover; 
+  margin-right: 10px; 
+  cursor: pointer;
 }
