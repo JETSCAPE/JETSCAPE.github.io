@@ -1,0 +1,36 @@
+/* CSS Style Sheet for Gallery Page */
+
+.gallery {
+    margin: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin: 2px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery_img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: small;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+}
