@@ -18,6 +18,8 @@ p {
 
 #current-image { 
   width: 100%;
+  box-shadow: 10px 10px 50px #8aabb1;
+  border-radius: 25px;
 }
 
 #image-thumbs { 
@@ -32,4 +34,5 @@ p {
   object-fit: cover; 
   margin-right: 10px; 
   cursor: pointer;
+  border-radius: 25px;
 }

@@ -1,3 +1,5 @@
+// script file to create the gallery
+
 var currentImage = document.getElementById("current-image");
 var imageThumbs = document.getElementById("image-thumbs");
 

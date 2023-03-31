@@ -1,3 +1,5 @@
+// script file to create the navigation menus
+
 fetch('nav.html')
 .then(res => res.text())
 .then(text => {
