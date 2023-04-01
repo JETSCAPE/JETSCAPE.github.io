@@ -2,7 +2,7 @@
   [
 	  "13th MPI@LHC",
 	  "https://indico.ift.uam-csic.es/event/14/",
-	  "11/15/2022",
+    "2021-11-15",
 	  "Chun Shen",
 	  "Multi-Messenger Heavy-ion Physics with JETSCAPE",
 	  "https://www.dropbox.com/s/9zv8b2ssw2mtxl2/Multi-MessengerJETSCAPE.pdf?dl=0"
@@ -10,7 +10,7 @@
   [
 	  "APS DNP 2023",
 	  "",
-	  "10/28/2022",
+    "2022-10-28",
 	  "Arjun Sengupta",
 	  "A Systematic Study of In-Medium Hadronization of Jet Showers with JETSCAPE and Hybrid Hadronization",
 	  "https://meetings.aps.org/Meeting/DNP22/Session/EF.7"
@@ -18,7 +18,7 @@
   [
 	  "Conference on the Intersections of Particle and Nuclear Physics",
 	  "https://agenda.hep.wisc.edu/event/1644/contributions/26059/",
-	  "8/29/2022",
+	  "2022-08-29",
 	  "Wenbin Zhao",
 	  "Investigating the Quark Gluon Plasma with Multi-system Bayesian Analysis in the JETSCAPE framework",
 	  ""
@@ -26,7 +26,7 @@
   [
     "CIPANP 2022",
     "https://agenda.hep.wisc.edu/event/1644/contributions/26114/",
-    "9/3/2022",
+    "2022-09-03",
     "Ismail Soudi",
     "Studying small systems using a multi-stage approach",
     ""
@@ -34,7 +34,7 @@
   [
     "Hadron-Ion Tea Seminar",
     "",
-    "8/11/2022",
+    "2022-08-11",
     "Raymond Ehlers",
     "What can we learn about the quark-gluon plasma from reconstructed jets with Bayesian inference?",
     ""
@@ -42,7 +42,7 @@
   [
     "Predictions for sPHENIX 2022",
     "https://indico.bnl.gov/event/15482/",
-    "7/22/2022",
+    "2022-07-22",
     "Raymond Ehlers",
     "Bayesian Inference with JETSCAPE, and what it takes to carry out a truly multi-messenger Bayesian Analysis for jet quenching",
     "https://indico.bnl.gov/event/15482/"
@@ -50,7 +50,7 @@
   [
     "Predictions for sPHENIX 2022",
     "https://indico.bnl.gov/event/15482/",
-    "7/20/2022",
+    "2022-07-20",
     "Amit Kumar",
     "MATTER+LBT (JETSCAPE) based predictions for sPHENIX jet measurements",
     ""
@@ -58,7 +58,7 @@
   [
     "CFNS Workshop: Jet Physics: From RHIC/LHC to EIC",
     "https://indico.bnl.gov/event/14375/",
-    "6/29/2022",
+    "2022-06-29",
     "Yasuki Tachibana",
     "Overview and recent progress on JETSCAPE",
     "https://indico.bnl.gov/event/14375/contributions/65415/attachments/41822/70056/tachibana_jet_to_eic.pdf"
@@ -66,7 +66,7 @@
   [
     "ECT* Workshop: JET QUENCHING IN THE QUARK-GLUON PLASMA",
     "https://indico.ectstar.eu/event/116/",
-    "6/17/2022",
+    "2022-06-17",
     "Yi Chen",
     "Bayesian inference with JETSCAPE",
     "https://indico.ectstar.eu/event/116/contributions/2524/"
@@ -74,7 +74,7 @@
   [
     "ECT* Workshop: JET QUENCHING IN THE QUARK-GLUON PLASMA",
     "https://indico.ectstar.eu/event/116/",
-    "6/15/2022",
+    "2022-06-15",
     "Yasuki Tachibana",
     "Medium response to jets in JETSCAPE",
     "https://indico.ectstar.eu/event/116/contributions/2542/attachments/1740/2224/tachibana_ect_star-compressed.pdf"
@@ -82,7 +82,7 @@
   [
     "Quark Matter 2022",
     "https://indico.cern.ch/event/895086/",
-    "4/5/2022",
+    "2022-04-05",
     "Yasuki Tachibana",
     "Comprehensive study of multi‑scale jet‑medium interaction",
     "https://indico.cern.ch/event/895086/contributions/4809197/attachments/2421223/4150469/tachibana_QM22.pdf"
@@ -90,7 +90,7 @@
   [
     "Quark Matter 2022",
     "https://indico.cern.ch/event/895086/",
-    "4/6/2022",
+    "2022-04-06",
     "Raymond Ehlers",
     "Bayesian analysis of QGP jet transport using multi-scale modeling applied to inclusive hadron and reconstructed jet data",
     "https://indico.cern.ch/event/895086/contributions/4703952/"
@@ -98,7 +98,7 @@
   [
     "APS DNP 20201",
     "http://web.mit.edu/dnp2021/",
-    "10/14/2021",
+    "2021-10-14",
     "Wenkai Fan",
     "Heavy flavor tagged jet evolution in QGP using the JETSCAPE framework",
     "https://meetings.aps.org/Meeting/DNP21/Session/QH.5"
@@ -106,7 +106,7 @@
   [
     "RBRC seminar",
     "",
-    "7/8/2021",
+    "2021-07-08",
     "Yi Chen",
     "Extraction of qhat in heavy-ion collisions with a Bayesian analysis",
     "https://indico.bnl.gov/event/12127/"
@@ -114,7 +114,7 @@
   [
     "APS April Meeting 2021",
     "https://april.aps.org/",
-    "21-Apr",
+    "2021-04",
     "James Mulligan",
     "Determining the jet transport coefficient of the quark-gluon plasma using Bayesian parameter estimation",
     "https://www.dropbox.com/s/o0tojky1mbn3t43/20210417_Mulligan_APS_v1.pdf?dl=0"
@@ -122,7 +122,7 @@
   [
     "Moriond",
     "https://moriond.in2p3.fr/",
-    "21-Apr",
+    "2021-04",
     "James Mulligan",
     "Determining the jet transport coefficient of the quark-gluon plasma using Bayesian parameter estimation",
     "https://www.dropbox.com/s/if6y1c9agy27g9m/20210402_Mulligan_Moriond_v2.pdf?dl=0"
@@ -130,7 +130,7 @@
   [
     "Heavy-ion tea seminar",
     "",
-    "1/26/2021",
+    "2021-01-26",
     "Yi Chen",
     "Constraining the jet transport coefficient q-hat in heavy-ion collisions with Bayesian analysis",
     ""
@@ -138,7 +138,7 @@
   [
     "APS DNP 2020",
     "https://meetings.aps.org/Meeting/DNP20/Content/3900",
-    "20-Oct",
+    "2020-10",
     "Amit Kumar",
     "Jet quenching in a multi-stage Monte Carloapproach",
     "https://www.dropbox.com/s/oz1tp6qutv9seum/AmitKumar_DNP_Meeting_2020.pdf?dl=0"
@@ -146,7 +146,7 @@
   [
     "APS DNP 2020",
     "https://meetings.aps.org/Meeting/DNP20/Content/3900",
-    "20-Oct",
+    "2020-10",
     "Gojko Vujanovic",
     "Probing multi-scale dynamicalinteractions between heavy quarksand the QGP using JETSCAPE",
     "https://www.dropbox.com/s/lraekt3heq3igmg/Gojko_Vujanovic_DB00001.pdf?dl=0"
@@ -154,7 +154,7 @@
   [
     "APS DNP 2020",
     "https://meetings.aps.org/Meeting/DNP20/Content/3900",
-    "20-Oct",
+    "2020-10",
     "Wenkai Fan",
     "Heavy jet evolution in QGP using the JETSCAPE framework",
     "https://www.dropbox.com/s/xvp86tok1gv1m3r/WenkaiFan_DNP_talk_2020.pdf?dl=0"
@@ -162,7 +162,7 @@
   [
     "Hard Probes 2020",
     "https://indico.cern.ch/event/751767/",
-    "20-Jun",
+    "2020-06",
     "Chanwook Park",
     "Constraints on jet quenching from a multi-stage energy-loss approach",
     "https://indico.cern.ch/event/751767/contributions/3771087/attachments/2050226/3436288/Chanwook_Park_HP2020.pdf"
@@ -170,7 +170,7 @@
   [
     "Hard Probes 2020",
     "https://indico.cern.ch/event/751767/",
-    "20-Jun",
+    "2020-06",
     "Chathuranga Sirimanna",
     "Photon-jet correlations in p-p and Pb-Pbcollisions using JETSCAPE framework",
     "https://www.dropbox.com/s/uj3hw0auy47e1tw/PhotonJetCorrelation_Chathuranga_v3.pdf?dl=0"
@@ -178,7 +178,7 @@
   [
     "Hard Probes 2020",
     "https://indico.cern.ch/event/751767/",
-    "20-Jun",
+    "2020-06",
     "Michael Kordell",
     "First Results from HybridHadronization in Smalland Large Systems",
     "https://www.dropbox.com/s/xpr7l6e07es3mef/Kordell_HP2020_v2.pptx?dl=0"
@@ -186,7 +186,7 @@
   [
     "Hard Probes 2020",
     "https://indico.cern.ch/event/751767/",
-    "20-Jun",
+    "2020-06",
     "Wenkai Fan",
     "Probing the multi-scale dynamical interaction between heavy quarks and the QGP using JETSCAPE",
     "https://indico.cern.ch/event/751767/contributions/3770938/"
@@ -194,7 +194,7 @@
   [
     "Quark Matter 2019",
     "https://indico.cern.ch/event/792436/",
-    "19-Nov",
+    "2019-11",
     "Gojko Vujanovic",
     "https://indico.cern.ch/event/792436/contributions/3535843",
     "https://indico.cern.ch/event/792436/contributions/3535843"
@@ -202,7 +202,7 @@
   [
     "Quark Matter 2019",
     "https://indico.cern.ch/event/792436/",
-    "19-Nov",
+    "2019-11",
     "Yasuki Tachibana",
     "Hydrodynamic response to jets with a source based on causal diffusion",
     "https://www.dropbox.com/s/575yykwhdrmoozt/tachibana_qm19_v2.pdf?dl=0"
@@ -210,7 +210,7 @@
   [
     "Quark Matter 2019",
     "https://indico.cern.ch/event/792436/",
-    "19-Nov",
+    "2019-11",
     "Amit Kumar",
     "Jet quenching in a multi-stage MC approach",
     "https://indico.cern.ch/event/792436/contributions/3535716/attachments/1938760/3213945/QuarkMatter_2019_Amit.pdf"
@@ -218,7 +218,7 @@
   [
     "MCEGs for future ep and s",
     "https://indico.cern.ch/event/845653",
-    "19-Nov",
+    "2019-11",
     "James Mulligan",
     "The JETSCAPE Framework (for ep and eA collisions?)",
     "https://www.dropbox.com/s/0xwr315dfr4smx1/20191121_Jetscape_MCEG_workshop.pdf?dl=0"
@@ -226,7 +226,7 @@
   [
     "Quark Matter 2019",
     "https://indico.cern.ch/event/792436/",
-    "19-Nov",
+    "2019-11",
     "Jean-Francois Paquet",
     "Multi-system Bayesian constraints on the transport coefficients of QCD",
     "https://www.dropbox.com/s/gqislq1x3oujpct/qm2019_jfpaquet_jetscape_sims_draft20.pdf?dl=0"
@@ -234,7 +234,7 @@
   [
     "Quark Matter 2019",
     "https://indico.cern.ch/event/792436/",
-    "19-Nov",
+    "2019-11",
     "Ron Soltz",
     "A Comprehensive MC Framework for Jet Quenching",
     "https://www.dropbox.com/s/xdjdzkxft3cw9ax/mc_jetquench_framework_qm19_soltz.pdf?dl=0"
@@ -242,7 +242,7 @@
   [
     "APS DNP 2019",
     "https://dnp2019.columbian.gwu.edu/",
-    "19-Oct",
+    "2019-10",
     "Chathuranga Sirimanna",
     "DNP_Fall_Meeting_2019",
     "https://www.dropbox.com/work/Collaboration-Access/Collaboration-Only-Files/JETSCAPE_talks/2019/DNP_Fall_Meeting_2019?preview=DNP2019_Chathuranga.pdf"
@@ -250,7 +250,7 @@
   [
     "APS DNP 2019",
     "",
-    "19-Oct",
+    "2019-10",
     "Ron Soltz",
     "Extraction of q-hat with correlated experimental errors",
     "https://www.dropbox.com/s/e5t6gq391qalw0v/bayesian_qhat_errs_dnp19_soltz.pdf?dl=0"
@@ -258,7 +258,7 @@
   [
     "RHIC/AGS User's Meeting",
     "https://www.bnl.gov/aum2019/index.php",
-    "19-Jun",
+    "2019-06",
     "Yasuki Tachibana",
     "Status of JETSCAPE ",
     "https://www.dropbox.com/s/w5hs2b651p55m3a/yasuki_tachibana_RHICAGS_June19.pdf?dl=0"
@@ -266,7 +266,7 @@
   [
     "Jet Tools Bergen",
     "https://indico.cern.ch/event/771644/overview",
-    "19-May",
+    "2019-05",
     "James Mulligan",
     "The JETSCAPE Framework",
     "https://indico.cern.ch/event/771644/contributions/3417051/attachments/1844419/3025548/Jetscape_Bergen.pdf"
@@ -274,7 +274,7 @@
   [
     "13th International Workshop on High-pT Physics in the RHIC/LHC era",
     "https://indico.cern.ch/event/730616/",
-    "19-Mar",
+    "2019-03",
     "Wenkai Fan",
     "Heavy Jet Observables within the JETSCAPE Framework",
     "https://www.dropbox.com/s/ewqe9smd2b3d6w7/HIghpTWorkshop_Lido%2BJetScape_v3.pdf?dl=0"
@@ -282,7 +282,7 @@
   [
     "Sante Fe/UCLA Jet and HF Workshop",
     "https://indico.bnl.gov/event/5039/overview",
-    "19-Jan",
+    "2019-01",
     "Weiyao Ke",
     "Model-to-data Comparison with JETSCAPE: a Heavy Flavor Example",
     "https://www.dropbox.com/s/eqrnngzk31u6i02/UCLA-jet-HF-2019-Weiyao-Ke-v2.pdf?dl=0"
@@ -290,7 +290,7 @@
   [
     "APS Southeastern section meeting",
     "http://www.phys.utk.edu/SESAPS18/",
-    "18-Nov",
+    "2018-11",
     "Jerrica Wilson",
     "Probing the Quark-Gluon Plasma: comparison of experimental jet dat to theoretical calculations",
     "https://www.dropbox.com/s/uhi35e5kbmp2mi5/SESAPSWilson.pdf?dl=0"
@@ -298,7 +298,7 @@
   [
     "APS Southeastern section meeting",
     "http://www.phys.utk.edu/SESAPS18/",
-    "18-Nov",
+    "2018-11",
     "James Neuhaus",
     "New heavy ion infrastructure in RIVET-HI",
     "https://www.dropbox.com/s/f1ekwxbb6xgrmcz/SESAPS-Neuhaus.pdf?dl=0"
@@ -306,7 +306,7 @@
   [
     "APS Southeastern section meeting",
     "http://www.phys.utk.edu/SESAPS18/",
-    "18-Nov",
+    "2018-11",
     "Austin Schmier",
     "Improving predictions of the Quark-Gluon Plasma",
     "https://www.dropbox.com/s/64m8o0xbxsewmjs/SchmierSESAPS.pdf?dl=0"
@@ -314,7 +314,7 @@
   [
     "APS Southeastern section meeting",
     "http://www.phys.utk.edu/SESAPS18/",
-    "18-Nov",
+    "2018-11",
     "Mariah McCreary",
     "Comparison of Azimuthal Anisotropy calculations in heavy ion collisions",
     "https://www.dropbox.com/s/tbcy9ady8arvste/McCrearySESAPS2018.pdf?dl=0"
@@ -322,7 +322,7 @@
   [
     "Hard Probes 2018",
     "https://indico.cern.ch/event/634426/",
-    "18-Oct",
+    "2018-10",
     "Yasuki Tachibana",
     "Jet substructure modifications in a QGP from multi-scale description of jet evolution with JETSCAPE",
     "https://www.dropbox.com/s/qv1vx03i7jpmq1y/tachibana_hp_18_v4.pdf?dl=0"
@@ -330,7 +330,7 @@
   [
     "Hard Probes 2018",
     "https://indico.cern.ch/event/634426/",
-    "18-Oct",
+    "2018-10",
     "Ron Soltz",
     "Bayesian extraction of $\\hat{q}$ with a multi-stage jet evolution approach",
     "https://www.dropbox.com/s/7fw0csa3bthdysb/bayesian_qhat_hp18_jetscape_soltz.pdf?dl=0"
@@ -338,7 +338,7 @@
   [
     "Hard Probes 2018",
     "https://indico.cern.ch/event/634426/",
-    "18-Oct",
+    "2018-10",
     "Rainer Fries",
     "p+p physics with the JETSCAPE 1.0 framework",
     "https://www.dropbox.com/s/zq95ifv2hqm5ftw/HP2018_pp_Fries_v4.pdf?dl=0"
@@ -346,7 +346,7 @@
   [
     "Hard Probes 2018",
     "https://indico.cern.ch/event/634426/",
-    "18-Oct",
+    "2018-10",
     "Chanwook Park",
     "Multi-stage jet evolution through QGP using the JETSCAPE framework: inclusive jets, correlations and leading hadrons",
     "https://www.dropbox.com/s/ac77js2nws4vaj7/Chanwook_Park_HP2018_v3.pdf?dl=0"
@@ -354,7 +354,7 @@
   [
     "Hard Probes 2018",
     "https://indico.cern.ch/event/634426/",
-    "18-Oct",
+    "2018-10",
     "Joern Putschke",
     "JETSCAPE 1.0: The first software release of the JETSCAPE collaboration",
     "https://www.dropbox.com/s/pvvys7v3c64f5bq/hp18_poster_putschke_v1.pdf?dl=0"
@@ -362,7 +362,7 @@
   [
     "RIVET Workshop, Copenhagen",
     "https://indico.cern.ch/event/735911/",
-    "18-Sep",
+    "2018-09",
     "Dani Pablos",
     "RIVET for JETSCAPE",
     "https://www.dropbox.com/s/4w5f74f2t6b1b2e/pablos_rivet_cph_v2.pdf?dl=0"
@@ -370,7 +370,7 @@
   [
     "Electron - Ion Collider User Group Meeting 2018",
     "https://www.jlab.org/conferences/eicugm18/",
-    "18-Jul",
+    "2018-07",
     "Joern Putschke",
     "JETSCAPE 1.0",
     "https://www.dropbox.com/s/1u2znze241nhg7r/eic_ug_jetscape_v1.pdf?dl=0"
@@ -378,7 +378,7 @@
   [
     "2018 Workshop on Probing Quark-Gluon Matter with Jets",
     "https://www.bnl.gov/pqgm2018/",
-    "18-Jul",
+    "2018-07",
     "Chun Shen",
     "JETSCAPE 1.0",
     "https://www.dropbox.com/s/2dtyf1msi1w2xb1/jetscape_1.0_cshen.pdf?dl=0"
@@ -386,7 +386,7 @@
   [
     "RHIC/AGS User's Meeting",
     "https://www.bnl.gov/aum2018/",
-    "18-Jun",
+    "2018-06",
     "Joern Putschke",
     "JETSCAPE 1.0",
     "https://www.dropbox.com/s/92tozm2fedblc2r/ags_jetscape_putschke.pdf?dl=0"
@@ -394,7 +394,7 @@
   [
     "Quark Matter 2018",
     "https://qm2018.infn.it/",
-    "18-May",
+    "2018-05",
     "Kolja Kauder",
     "JETSCAPE 1.0 - First release",
     "https://www.dropbox.com/s/6ipceqk8r6jm2m2/Kauder_QM18_Jetscape.pptx?dl=0"
@@ -402,7 +402,7 @@
   [
     "INT Workshop",
     "https://www.int.washington.edu/PROGRAMS/17-1b/",
-    "17-May",
+    "2017-05",
     "Gojko Vujanovic",
     "Electromagnetic probes of heavy ion collisions",
     "https://www.dropbox.com/s/fxxyw26mfw6wiiw/Vujanovic_INT-17-1b.pdf?dl=0"
@@ -410,7 +410,7 @@
   [
     "INT Workshop",
     "https://www.int.washington.edu/PROGRAMS/17-1b/",
-    "17-May",
+    "2017-05",
     "Shanshan Cao",
     "Transport model for heavy quark / jet and its possible future development",
     "https://www.dropbox.com/s/ycigzufeiro53r1/CaoWeek4.pdf?dl=0"
@@ -418,7 +418,7 @@
   [
     "INT Workshop",
     "https://www.int.washington.edu/PROGRAMS/17-1b/",
-    "17-May",
+    "2017-05",
     "Shanshan Cao",
     "Multistage Jet Evolution in Heavy-Ion Collisions",
     "https://www.dropbox.com/s/b5575ig50wyyhzf/CaoWeek2.pdf?dl=0"
@@ -426,7 +426,7 @@
   [
     "INT Workshop",
     "https://www.int.washington.edu/PROGRAMS/17-1b/",
-    "17-May",
+    "2017-05",
     "Shanshan Cao",
     "Transport model for heavy quark / jet and its possible future development",
     "https://www.dropbox.com/s/2vy7zsk3515ryyw/CaoWeek1.pdf?dl=0"
@@ -434,7 +434,7 @@
   [
     "Quark Matter 2017",
     "http://qm2017.phy.uic.edu/",
-    "17-Feb",
+    "2017-02",
     "Gojko Vujanovic",
     "Bulk viscous effects on flow and dilepton radiation in a hybrid approach",
     "https://www.dropbox.com/s/goj64wiv1ph3avh/Vujanovic_QM2017.pdf?dl=0"
@@ -442,7 +442,7 @@
   [
     "Quark Matter 2017",
     "http://qm2017.phy.uic.edu/",
-    "17-Feb",
+    "2017-02",
     "Dennis Bazow",
     "GPU-optimized fluid dynamics for heavy ion collisions",
     "https://www.dropbox.com/s/tqvy30b6f91rruo/QM2017_Bazow.pdf?dl=0"
@@ -450,7 +450,7 @@
   [
     "Hard Probes 2016",
     "https://indico.cern.ch/event/502239/",
-    "16-Sep",
+    "2016-09",
     "Gojko Vujanovic",
     "Bulk viscous effects on flow and dilepton radiation in a hybrid approach",
     "https://www.dropbox.com/s/glt2rzuw6tl6c0w/Vujanovic_HP2016_newrepo.pdf?dl=0"

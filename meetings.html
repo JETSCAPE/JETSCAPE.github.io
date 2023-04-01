@@ -6,7 +6,15 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- DataTables CSS and script links -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+
+<script id="script_tables" src="scripts/tables.js"></script>
+<script id="script_talks" src="scripts/meetings.js"></script>
+
+<body onload="makeTable()">
   <div id="containerFlexible">
     <!-- header -->
     <div class="header">
@@ -17,6 +25,49 @@
     </div>
 
     <script id="insert_menu" src="scripts/nav.js"></script>
+
+    <h2>JETSCAPE Meetings</h2>
+    <table id="jetscapeMeetingsTable" class="cell-border compact stripe">
+      <thead>
+      <tr>
+          <th>Official Link</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Location</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+          <td>Official Link</td>
+          <td>Start Date</td>
+          <td>End Date</td>
+          <td>Location</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <h2>Other Meetings of Interest</h2>
+    <table id="otherMeetingsTable" class="cell-border compact stripe">
+      <thead>
+      <tr>
+          <th>Official Link</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Location</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+          <td>Official Link</td>
+          <td>Start Date</td>
+          <td>End Date</td>
+          <td>Location</td>
+      </tr>
+      </tbody>
+    </table>
+      
 
     <!-- insert footer -->
     <script id="insert_footer" src="scripts/foot.js"></script>
