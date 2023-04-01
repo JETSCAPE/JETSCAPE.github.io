@@ -99,6 +99,13 @@ h2 {
   text-align: left;
 }
 
+h4 {
+  /* the page titles introducing minor sections are labeled h3 */
+  color: black;
+  text-align: left;
+  text-decoration: none;
+}
+
 hr {
   /* the horizontal rule is used to separate sections */
   border: .5px solid lightgray;
