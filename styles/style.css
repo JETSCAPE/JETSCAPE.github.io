@@ -67,6 +67,18 @@
   text-align: center;
 }
 
+#talkTable  {
+  position: block;
+  margin: auto;
+  box-shadow: 10px 10px 50px #8aabb1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #333747
+}
+
 /* Tag Styles */
 
 body {

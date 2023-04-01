@@ -6,7 +6,14 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- DataTables CSS and script links -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+
+<script id="insert_talks" src="scripts/talks.js"></script>
+
+<body onload="createTable()">
   <div id="containerFlexible">
     <!-- header -->
     <div class="header">
@@ -18,24 +25,27 @@
 
     <script id="insert_menu" src="scripts/nav.js"></script>
 
-    <!-- JavaScript to Build the HTML Table from Excel file -->
-    <script id="create_talks_table" src="scripts/talks.js"></script>
+    <table id="talkTable" class="cell-border compact stripe">
+      <thead>
+      <tr>
+          <th>Meeting</th>
+          <th>Date</th>
+          <th>Speaker</th>
+          <th>Talk Title</th>
+      </tr>
+      </thead>
 
-    <!-- footer -->
-    <div id="footerFlexible">
-      <hr>
-      <div>
-        <img id="smallLogo" src="images/nsf-logo.png" alt="NSF Logo">
-      </div>
-      <div>
-        <p>
-        This project is supported by National Science Foundation under 
-        Cooperative Agreements ACI-1550300 and ACI-2004571. Any opinions, 
-        findings, conclusions or recommendations expressed in this material 
-        are those of the authors and do not necessarily reflect the views 
-        of the National Science Foundation.
-        </p>
-      </div>
-    </div>
+      <tbody>
+      <tr>
+          <td>Meeting</td>
+          <td>Date</td>
+          <td>Speaker</td>
+          <td>Talk Title</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <!-- insert footer -->
+    <script id="insert_footer" src="scripts/foot.js"></script>
   </div> 
 </body>
