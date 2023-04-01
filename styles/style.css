@@ -92,6 +92,17 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  /* the page titles introducing minor sections are labeled h2 */
+  color: black;
+  text-align: left;
+}
+
+hr {
+  /* the horizontal rule is used to separate sections */
+  border: .5px solid lightgray;
+}
+
 iframe {
   /* the iframe tag is used to display the calendar */
   box-shadow: 10px 10px 50px #8aabb1;
