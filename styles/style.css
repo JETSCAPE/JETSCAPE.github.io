@@ -166,3 +166,19 @@ iframe {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #333747;}
+
+.physicsGallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  box-shadow: 10px 10px 50px #8aabb1;
+  margin-top: 50px;
+}
+
+.caption {
+  text-align: center;
+  font-size: small;
+  color: black;
+}
