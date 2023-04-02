@@ -1,6 +1,14 @@
+// The JETSCAPE Collaboration
+//
+// This makeList function in this script runs when the publications page 
+// is loaded.  This script writes the html for the publications list
+// using data from the data/publications.json file.
+
 let pubDataFile = "data/publications.json";
 let pubID = "#pubList";
 
+// The html for the publications list is passed to this function,
+// which writes it to the page at location of the "pubList" id.
 let writeHTML = (str) => {
     let container = document.getElementById("pubList");
     let newDiv = document.createElement("div");
@@ -8,7 +16,9 @@ let writeHTML = (str) => {
     container.appendChild(newDiv);
 };
 
-// get a list of unique descending key values
+// One of the fields in the json file lists the article year.
+// This function returns an array of unique keys, sorted in descending 
+// order, and can be used to return an array of unique years.
 let getUnique = (arr, key) => {
     let unique = [];
     for (let i = 0; i < arr.length; i++) {
@@ -19,26 +29,38 @@ let getUnique = (arr, key) => {
     return unique.sort().reverse();
 };
 
+// This function builds the html string for the publications list.
 let buildString = (arr) => {
     let str = "";
     let uniqueYears = getUnique(arr, "year");
+
     for (let i = 0; i < uniqueYears.length; i++) {
+
+        // prints the relevant as a header
         str += "<h3 class=\"yearHeader\">" + uniqueYears[i] + "</h3>";
         for (let j = 0; j < arr.length; j++) {
             if (arr[j].year === uniqueYears[i]) {
+
+                // a div to apply css formatting to the article block
                 str += "<div = class=\"articleBlock\">";
 
+                // if the author field is not empty, print it
                 if (arr[j].author)
                     str += "<p>" + arr[j].author + "</p>";
 
+                // if the title also includes an url, print it as a link
                 if (arr[j].title && arr[j].url)
                     str += "<p><a href=\"" + arr[j].url + "\">" + arr[j].title + "</a></p>";
                 else if (arr[j].title)
                     str += "<p>" + arr[j].title + "</p>";
 
+                // if the tppubtype and pubstate fields are not empty, print them
                 if (arr[j].tppubtype && arr[j].pubstate)
                     str += "<p>" + arr[j].tppubtype + " " + arr[j].pubstate + "</p>";
                 
+                // if the journal or booktitle fields are not empty, print them
+                // along with any volume number, issue number, page numbers, year,
+                // and note fields that are available
                 if (arr[j].journal || arr[j].booktitle) {
                     if (arr[j].journal)
                         str += "<p>" + arr[j].journal;
@@ -58,6 +80,8 @@ let buildString = (arr) => {
                     str += ".</p>";
                 }
 
+                // if the url or doi fields are not empty, print them as links
+                // in a collapsible div
                 if (arr[j].url || arr[j].doi) {
                     str += "<button type=\"button\" class=\"collapsible\">Links</button>";
                     str += "<div class=\"content\">";
@@ -69,6 +93,7 @@ let buildString = (arr) => {
                     str += "</div>";
                 }
 
+                // if the abstract field is not empty, print it in a collapsible div
                 if (arr[j].abstract) {
                     str += "<button type=\"button\" class=\"collapsible\">Abstract</button>";
                     str += "<div class=\"content\">";
@@ -84,6 +109,8 @@ let buildString = (arr) => {
     return str;
 };
 
+// This function provides listeners so the links and abstract fields
+// can be expanded and collapsed.
 let collapseListeners = () => {
     let coll = document.getElementsByClassName("collapsible");
 
@@ -101,10 +128,21 @@ let collapseListeners = () => {
     }
 };
 
+// This function runs when the publications page is loaded.
 let makeList = ()=> {
+    // parse the data file
     let arr = parseJSON(pubDataFile);
+    
+    // prints to console for debugging
     printArray(arr);
+
+    // build the html string
     str = buildString(arr);
+
+    // write the html string to the page
     writeHTML(str);
+
+    // adds listeners so links and abstract fields can be
+    // expanded and collapsed
     collapseListeners();
 }

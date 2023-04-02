@@ -1,4 +1,7 @@
-// script file to create the footer
+// The JETSCAPE Collaboration
+//
+// This script inserts the footer foot.html at the bottom of
+// every page.
 
 fetch('foot.html')
 .then(res => res.text())

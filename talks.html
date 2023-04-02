@@ -1,12 +1,23 @@
+<!--
+  Author: The JETSCAPE Collaboration
+  Date: 2023-04-02
+  This is the page for JETSCAPE talks.
+  It shows selected talks given JETSCAPE.
+-->
+
 <!DOCTYPE html>
 <html lang="">
 <head>
     <title>Talks</title>
     <meta charset="utf-8">
+    <meta name="description" content="JETSCAPE Talks Page">
+    <meta name="keywords" content="JETSCAPE talks, lectures, presentations, seminars">
+    <meta name="author" content="The JETSCAPE Collaboration">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <!-- DataTables CSS and script links -->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
@@ -24,8 +35,11 @@
       <h1>Talks</h1>
     </div>
 
+    <!-- insert navigation bar -->
     <script id="insert_menu" src="scripts/nav.js"></script>
 
+    <!-- main content -->
+    <!-- scripts/talks.js will populate the talks table using data/talks.json -->
     <table id="talkTable" class="cell-border compact stripe">
       <thead>
       <tr>

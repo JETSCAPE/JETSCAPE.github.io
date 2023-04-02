@@ -1,32 +1,24 @@
-/* CSS Style Sheet */
-
-/* General style */
+/* CSS Main Style Sheet */
 
 * {
-  /* accounts for borders and padding in width or height elements */
   box-sizing: border-box;
 }
 
-/* ID Styles */
-
 #containerFlexible {
-  /* containerFlexible applies to a div tag that encloses all of the
-  viewable content on each page.  This limits the entire site to 80%
-  of the available screen width */
   max-width: 90%;
   margin: auto;
   line-height: 1.5;
 }
 
+/* formats the navigation bar */
 #NavPanelFlexible {
   padding: 10px;
   display: block;
   text-align: center;
 }
 
+/* formats the footer */
 #footerFlexible {
-  /* footerFlexible applies to a footer section at the bottom of each page
-  listing the park name, address, email link, and copyright notice */
   color: black;
   font-size: medium;
   text-align: center;
@@ -34,6 +26,7 @@
   padding-top: 10px;
 }
 
+/* formats the JETSCAPE logo */
 #smallLogo {
   width: 100px;
   height: 100px;
@@ -41,6 +34,7 @@
   padding: 5px;
 }
 
+/* formats the NSF logo */
 #nsfMediumLogo {
   width: 200px;
   height: 200px;
@@ -48,6 +42,7 @@
   padding: 5px;
 }
 
+/* formats the institutional affiliations img */
 #institutional {
   padding: 5px;
   display: block;
@@ -59,6 +54,7 @@
   padding: 20px;
 }
 
+/* formats the embedded Google Calendar */
 #calendar {
   padding: 5px;
   display: block;
@@ -67,6 +63,7 @@
   text-align: center;
 }
 
+/* formats the meetings and talks tables */
 #talkTable, #jetscapeMeetingsTable, #otherMeetingsTable {
   position: block;
   margin: auto;
@@ -80,49 +77,41 @@
   font-size: small;
 }
 
-/* Tag Styles */
+/* formats various html tags  */
 
 body {
-  /* font selection for text within body tag */
   font-family: verdana, georgia, sans-serif;
 }
 
 h1 {
-  /* the page titles introducing major sections are labeled h1 */
   color: black;
   text-align: center;
 }
 
 h2 {
-  /* the page titles introducing minor sections are labeled h2 */
   color: black;
   text-align: left;
 }
 
 h4 {
-  /* the page titles introducing minor sections are labeled h3 */
   color: black;
   text-align: left;
   text-decoration: none;
 }
 
 hr {
-  /* the horizontal rule is used to separate sections */
   border: .5px solid lightgray;
 }
 
 iframe {
-  /* the iframe tag is used to display the calendar */
-  box-shadow: 10px 10px 50px #8aabb1;
+box-shadow: 10px 10px 50px #8aabb1;
 }
-
-/* Class Styles */
 
 .header {
   text-align: center;
 }
 
-/* Dropdown Button */
+/* dropdown buttons on the navigation bar */
 .dropbtn {
   background-color: #8aabb1;
   color: white;
@@ -134,13 +123,12 @@ iframe {
   margin-bottom: 2px;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* formats the submenus when a dropdown menu is clicked */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -150,7 +138,7 @@ iframe {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+/* formats the links in the dropdown menus */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -158,15 +146,14 @@ iframe {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* additional dropdown menu formatting on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #333747;}
 
+/* formats the images on the physics working group page */
 .physicsGallery {
   display: block;
   margin-left: auto;
@@ -177,18 +164,21 @@ iframe {
   margin-top: 50px;
 }
 
+/* formats the captions under various images */
 .caption {
   text-align: center;
   font-size: small;
   color: black;
 }
 
+/* formats the image captions on the SIMS group page */
 .simsCaption {
   text-align: center;
   font-size: medium;
   color: black;
 }
 
+/* formats the images on the COMP group page */
 .compImage {
   max-width: 70%;
   height: auto;
@@ -197,6 +187,7 @@ iframe {
   margin-right: auto;
 }
 
+/* formats the images on the SIMS group page */
 .simsImage {
   max-width: 90%;
   height: auto;
@@ -206,6 +197,7 @@ iframe {
   margin-top: 50px;
 }
 
+/* formats the widget image on the SIMS group page */
 .widgetImage {
   display: block;
   margin-left: auto;
@@ -214,6 +206,8 @@ iframe {
   margin-top: 50px;
 }
 
+/* formats expandable/collapsible abstract and
+link links on the publications page */
 .collapsible {
   background-color: #8aabb1;;
   color: white;
@@ -226,9 +220,9 @@ iframe {
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
-  background-color: #333747;
-}
+/* additional formatting for the collapsible buttons
+on hover */
+.active, .collapsible:hover {background-color: #333747;}
 
 .content {
   padding: 0 18px;
@@ -238,6 +232,8 @@ iframe {
   background-color: #f1f1f1;
 }
 
+/* formatting for article block, which includes title, author,
+publication, and etc for each source on the publications page */
 .articleBlock {
   display: block;
   margin-left: auto;
@@ -247,6 +243,7 @@ iframe {
   background-color: #f1f1f1;
 }
 
+/* formatting for the year headers on the publications page */
 .yearHeader {
   display: block;
   margin-left: auto;

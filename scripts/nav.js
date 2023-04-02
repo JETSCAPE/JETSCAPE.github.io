@@ -1,4 +1,7 @@
-// script file to create the navigation menus
+// The JETSCAPE Collaboration
+//
+// This script inserts the navigation bar near the top of
+// every page.
 
 fetch('nav.html')
 .then(res => res.text())

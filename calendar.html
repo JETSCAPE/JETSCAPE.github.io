@@ -1,8 +1,18 @@
+<!--
+  Author: The JETSCAPE Collaboration
+  Date: 2023-04-02
+  This page shows the JETSCAPE Collaboration calendar.
+-->
+
+
 <!DOCTYPE html>
 <html lang="">
 <head>
     <title>JETSCAPE Collaboration Calendar</title>
     <meta charset="utf-8">
+    <meta name="description" content="JETSCAPE Calendar">
+    <meta name="keywords" content="calendar, events, meetings">
+    <meta name="author" content="The JETSCAPE Collaboration">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -16,10 +26,12 @@
       <h1>JETSCAPE Collaboration Calendar</h1>
     </div>
 
+    <!-- insert navigation bar -->
     <script id="insert_menu" src="scripts/nav.js"></script>
 
     <!-- main content -->
-    <div class="content">
+    <!-- embeds the Google Calendar used to show JETSCAPE meetings -->
+    <div>
       <div>
         <p id="calendar">
           <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=NXNsb3Z2bW05Mm9rOTF2ZTJkODBmMGpwbjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>

@@ -1,3 +1,12 @@
+// The JETSCAPE Collaboration
+//
+// This script runs when the talks page is loaded.
+// It calls the createTable function from scripts/tables.js
+// and passes in the data file to populate the table,
+// the html id of the table, and a function to write the
+// anchor tag, which merges the url and text description fields
+// into one array element.
+
 let dataFile = "data/talks.json";
 let tableID = "#talkTable";
 

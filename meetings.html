@@ -1,8 +1,17 @@
+<!--
+  Author: The JETSCAPE Collaboration
+  Date: 2023-04-02
+  This page provides table of JETSCAPE meetings and other related meetings.
+-->
+
 <!DOCTYPE html>
 <html lang="">
 <head>
     <title>Meetings</title>
     <meta charset="utf-8">
+    <meta name="description" content="JETSCAPE Meetings">
+    <meta name="keywords" content="meetings, events, conferences">
+    <meta name="author" content="The JETSCAPE Collaboration">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -24,8 +33,12 @@
       <h1>Meetings</h1>
     </div>
 
+    <!-- insert navigation bar -->
     <script id="insert_menu" src="scripts/nav.js"></script>
 
+    <!-- main content -->
+    <!-- scripts/meetings.js write the JETSCAPE Meetings table using 
+      data/jetscapeMeetings.json -->
     <h2>JETSCAPE Meetings</h2>
     <table id="jetscapeMeetingsTable" class="cell-border compact stripe">
       <thead>
@@ -47,6 +60,8 @@
       </tbody>
     </table>
 
+    <!-- scripts/meetings.js write the Other Meetings table using 
+      data/otherMeetings.json -->
     <h2>Other Meetings of Interest</h2>
     <table id="otherMeetingsTable" class="cell-border compact stripe">
       <thead>

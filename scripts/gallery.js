@@ -1,4 +1,7 @@
-// script file to create the gallery
+// The JETSCAPE Collaboration
+//
+// This script provides thumbnails for the gallery images
+// that are displayed on the gallery.html page.
 
 var currentImage = document.getElementById("current-image");
 var imageThumbs = document.getElementById("image-thumbs");
