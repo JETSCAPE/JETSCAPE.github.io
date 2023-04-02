@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>Simulations Working Group (SIMS-WG)</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div id="containerFlexible">
+    <!-- header -->
+    <div class="header">
+      <a href="index.html">
+        <img src="images/jetscape_home_logo.jpg" alt="JETSCAPE Logo" class="logo"
+      ></a>
+      <h1>Simulations Working Group (SIMS-WG)</h1>
+    </div>
+
+    <script id="insert_menu" src="scripts/nav.js"></script>
+
+    <!-- main content -->
+    <div class="content">
+        <h2>Role</h2>
+        <p>
+            SIMS-WG assists in writing, maintaining and running physics and 
+            statistical software for modeling heavy ion collisions, as well 
+            as performing state-of-the-art model-to-data comparisons.
+        </p>
+        <p>
+            In <a href="https://inspirehep.net/literature/1821941">arXiv:2010.03928</a> and 
+            <a href="https://inspirehep.net/literature/1827929">arXiv:2011.01430</a>, we 
+            presented a Bayesian inference on measurements from the RHIC and the LHC. 
+            We obtained state-of-the-art constraints on the shear and bulk viscosities 
+            of QCD, and applied for the first time in heavy ion studies multiple new 
+            concepts of Bayesian inference, including:
+        </p>
+        <div>
+            <ul>
+                <li>Closure tests</li>
+                <li>Critical examination of priors</li>
+                <li>Bayesian model selection</li>
+                <li>Bayesian model averaging</li>
+            </ul>
+        </div>
+        <div>
+            <a href="http://eg1.jetscape.wayne.edu/">
+                <img class="widgetImage" src="images/sims_widget_img.png" alt="SIMS Widget Image">
+            </a>
+        </div>
+        <div>
+            <p class="caption">
+                Click on the image to access a widget that shows how each model parameters affect hadronic observables.
+            </p>
+        </div>
+        <div>
+            <p>
+                The code used for the Bayesian inference is also publicly available on Github:
+            </p>
+            <a href="https://github.com/JETSCAPE/JETSCAPE/tree/sims-xsede-2021">https://github.com/JETSCAPE/JETSCAPE/tree/sims-xsede-2021</a>
+            
+        </div>
+        <div>
+            <p>
+                The code used for the hybrid model is publicly available here:
+            </p>
+            <a href="https://github.com/j-f-paquet/js-sims-bayes">https://github.com/j-f-paquet/js-sims-bayes</a>
+        </div>
+        <h3>
+            See below for description of the components used for modeling 
+            the soft sector of heavy ion collisions.
+        </h3>
+        <div>
+            <img class="simsImage" src="images/TRENTo_01.png" alt="Initial Energy Deposition (TRENTO)">
+            <p class="simsCaption">
+                The first stage of the model gives the initial conditions. 
+                <a href="http://qcd.phy.duke.edu/trento/">TRENTo</a> is a model 
+                which parameterizes the initial energy deposition immediately 
+                following a heavy ion collision. 
+            </p>
+        </div>
+        <div>
+            <img class="simsImage" src="images/TRENTo_02.png" alt="Pre-Hydro (Free-Streaming)">
+            <p class="simsCaption">
+                The first dynamical stage of the collision is treated with a 
+                free-streaming approximation. The system expands and cools, 
+                before we match the full energy-momentum tensor to viscous 
+                hydrodynamics. 
+            </p>
+        </div>
+        <div>
+            <img class="simsImage" src="images/TRENTo_03.png" alt="Viscous Hydro (MUSIC)">
+            <p class="simsCaption">
+                The second dynamical stage is relativistic viscous 
+                hydrodynamics, solved by 
+                <a href="https://github.com/MUSIC-fluid/MUSIC/tree/sims">MUSIC</a>. 
+                The system continues to expand and cool according to 
+                parameterized transport coefficients and a fixed equation of 
+                state.
+            </p>
+        </div>
+        <div>
+            <img class="simsImage" src="images/TRENTo_04.png" alt="Particlization">
+            <p class="simsCaption">
+                At a switching temperature, the energy-momentum tensor of 
+                hydrodynamic is converted into distributions of hadrons. 
+                The model of “particlization” used are those included in the 
+                <a href="https://github.com/derekeverett/iS3D"></a>iS3D</a> 
+                sampler.
+            </p>
+        </div>
+        <div>
+            <img class="simsImage" src="images/TRENTo_05.png" alt="Hadronic Phase (SMASH)">
+            <p class="simsCaption">
+                <a href="https://smash-transport.github.io/">SMASH</a> is a 
+                model for evolving a system of hadrons according to a coupled 
+                Boltzmann equation. Hadrons can scatter, form resonances and 
+                decay until they finally become completely decoupled. 
+            </p>
+        </div>
+        <h3>Group Members</h3>
+        <div>
+            <h4>Conveners, Postdocs, PhD Students, Faculty</h4>
+            <ul>
+                <li>Matthew Luzum (University of São Paulo)</li>
+                <li>Jean-François Paquet (Duke University)</li>
+                <li>Gojko Vujanovic [Convener: 2018-2021] (Wayne State University)</li>
+                <li>Lipei Du (McGill University)</li>
+                <li>Weiyao Ke (Los Alamos)</li>
+                <li>Matthew Heffernan (McGill University)</li>
+                <li>Lauren Kasper (Vanderbilt University)</li>
+                <li>Dan Liyanage (Ohio State University)</li>
+                <li>Andi Mankolliv(Vanderbilt University)</li>
+                <li>Derek Soeder (Duke University)</li>
+                <li>Derek Everett (Ohio State University)</li>
+                <li>Steffen Bass (Duke University)</li>
+                <li>Charles Gale (McGill University)</li>
+                <li>Abhijit Majumder (Wayne State University)</li>
+                <li>Chun Shen (Wayne State University)</li>
+                <li>Julia Velkovska (Vanderbilt University)</li>
+                <li>Ulrich Heinz (Ohio State University)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- insert footer -->
+    <script id="insert_footer" src="scripts/foot.js"></script>
+  </div>
+</body>
