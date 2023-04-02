@@ -213,3 +213,44 @@ iframe {
   width: 50%;
   margin-top: 50px;
 }
+
+.collapsible {
+  background-color: #8aabb1;;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #333747;
+}
+
+.content {
+  padding: 0 18px;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.articleBlock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 80%;
+  background-color: #f1f1f1;
+}
+
+.yearHeader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 80%;
+}
