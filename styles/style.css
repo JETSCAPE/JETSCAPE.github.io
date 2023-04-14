@@ -77,6 +77,19 @@
   font-size: small;
 }
 
+/* formats the organizations tables */
+#organizationsTable {
+  table-layout: auto;
+  width: 100%;
+  position: block;
+  box-shadow: 10px 10px 50px #8aabb1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #333747;
+  font-size: small;
+}
+
 /* formats various html tags  */
 
 body {
