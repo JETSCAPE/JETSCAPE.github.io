@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="description" content="JETSCAPE Simulations Working Group">
     <meta name="keywords" content="sims, sims working group, simulations">
-    <meta name="author" content="The JETSCAPE Collaboration">
+    <meta name="author" content="The JETSCAPE Collaboration" >
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -35,13 +35,20 @@
     <div>
         <h2>Role</h2>
         <p>
-            SIMS-WG assists in writing, maintaining and running physics and 
+            The SIMS Working Group assists in writing, maintaining and running physics and 
             statistical software for modeling heavy ion collisions, as well 
             as performing state-of-the-art model-to-data comparisons.
         </p>
+   </div>
+   <div>
+   	<h2>Publications</h2>
         <p>
-            In <a href="https://inspirehep.net/literature/1821941">arXiv:2010.03928</a> and 
-            <a href="https://inspirehep.net/literature/1827929">arXiv:2011.01430</a>, we 
+        In 2022, we published <a href="https://inspirehep.net/literature/2053327" target="_blank">"Role of bulk viscosity in deuteron production in ultrarelativistic nuclear collisions"</a>, in which we compared different models for the formation of deuterons in heavy-ion collisions, 
+        and studied the effect of bulk viscosity on the production of deuterons.
+        </p>
+        <p>
+            In <a href="https://inspirehep.net/literature/1821941" target="_blank">"Phenomenological constraints on the transport properties of QCD matter with data-driven model averaging"</a> (published in Physical Review Letter in 2021, and selected as Editors' Suggestion) and in
+            <a href="https://inspirehep.net/literature/1827929" target="_blank">"Multisystem Bayesian constraints on the transport coefficients of QCD matter"</a> (published in Physical Review C in 2021), we 
             presented a Bayesian inference on measurements from the RHIC and the LHC. 
             We obtained state-of-the-art constraints on the shear and bulk viscosities 
             of QCD, and applied for the first time in heavy ion studies multiple new 
@@ -55,17 +62,23 @@
                 <li>Bayesian model averaging</li>
             </ul>
         </div>
+        To make the calculations available to the community, we built a web application where one can visualize easily the effect of the parameters on the different observables:
         <div>
-            <a href="http://eg1.jetscape.wayne.edu/">
+            <a href="http://eg1.jetscape.wayne.edu/" target="_blank">
                 <img class="widgetImage" src="images/sims_widget_img.png" alt="SIMS Widget Image">
             </a>
         </div>
         <div>
             <p class="caption">
-                Click on the image to access a widget that shows how each model parameters affect hadronic observables.
+                Click on the image to access a widget that shows how each model parameters affects hadronic observables.
             </p>
-        </div>
-        <div>
+   </div>
+<!--    <div>
+   	<h2>Presentations</h2>            
+            
+   </div> -->
+   <div>
+   	<h2>Codes</h2>
             <p>
                 The code used for the Bayesian inference is also publicly available on Github:
             </p>
@@ -78,12 +91,11 @@
             </p>
             <a href="https://github.com/j-f-paquet/js-sims-bayes">https://github.com/j-f-paquet/js-sims-bayes</a>
         </div>
-        <h3>
-            See below for description of the components used for modeling 
-            the soft sector of heavy ion collisions.
-        </h3>
+        </div>
         <div>
-            <img class="simsImage" src="images/TRENTo_01.png" alt="Initial Energy Deposition (TRENTO)">
+        <h2>Multistage model of heavy-ion collisions used in the 2021-2022 Bayesian inference</h2>
+        <div>
+            <img class="simsImage" src="images/TRENTo_01.png" width="1000" alt="Initial Energy Deposition (TRENTO)">
             <p class="simsCaption">
                 The first stage of the model gives the initial conditions. 
                 <a href="http://qcd.phy.duke.edu/trento/">TRENTo</a> is a model 
@@ -92,7 +104,7 @@
             </p>
         </div>
         <div>
-            <img class="simsImage" src="images/TRENTo_02.png" alt="Pre-Hydro (Free-Streaming)">
+            <img class="simsImage" src="images/TRENTo_02.png" width="1000" alt="Pre-Hydro (Free-Streaming)">
             <p class="simsCaption">
                 The first dynamical stage of the collision is treated with a 
                 free-streaming approximation. The system expands and cools, 
@@ -101,7 +113,7 @@
             </p>
         </div>
         <div>
-            <img class="simsImage" src="images/TRENTo_03.png" alt="Viscous Hydro (MUSIC)">
+            <img class="simsImage" src="images/TRENTo_03.png" width="1000" alt="Viscous Hydro (MUSIC)">
             <p class="simsCaption">
                 The second dynamical stage is relativistic viscous 
                 hydrodynamics, solved by 
@@ -112,7 +124,7 @@
             </p>
         </div>
         <div>
-            <img class="simsImage" src="images/TRENTo_04.png" alt="Particlization">
+            <img class="simsImage" src="images/TRENTo_04.png" width="1000" alt="Particlization">
             <p class="simsCaption">
                 At a switching temperature, the energy-momentum tensor of 
                 hydrodynamic is converted into distributions of hadrons. 
@@ -122,7 +134,7 @@
             </p>
         </div>
         <div>
-            <img class="simsImage" src="images/TRENTo_05.png" alt="Hadronic Phase (SMASH)">
+            <img class="simsImage" src="images/TRENTo_05.png" width="1000" alt="Hadronic Phase (SMASH)">
             <p class="simsCaption">
                 <a href="https://smash-transport.github.io/">SMASH</a> is a 
                 model for evolving a system of hadrons according to a coupled 
@@ -131,13 +143,13 @@
             </p>
         </div>
         <!-- lists the SIMS group members -->
-        <h3>Group Members</h3>
+        <h2>Group Members</h2>
         <div>
-            <h4>Conveners, Postdocs, PhD Students, Faculty</h4>
+<!--             <h4>Conveners, Postdocs, PhD Students, Faculty</h4>
             <ul>
                 <li>Matthew Luzum (University of São Paulo)</li>
-                <li>Jean-François Paquet (Duke University)</li>
-                <li>Gojko Vujanovic [Convener: 2018-2021] (Wayne State University)</li>
+                <li>Jean-François Paquet (Vanderbilt University)</li>
+                <li>Gojko Vujanovic [Convener: 2018-2021] (University of Regina)</li>
                 <li>Lipei Du (McGill University)</li>
                 <li>Weiyao Ke (Los Alamos)</li>
                 <li>Matthew Heffernan (McGill University)</li>
@@ -152,7 +164,90 @@
                 <li>Chun Shen (Wayne State University)</li>
                 <li>Julia Velkovska (Vanderbilt University)</li>
                 <li>Ulrich Heinz (Ohio State University)</li>
+            </ul> -->
+            
+            <h3>Conveners</h3>
+            <ul>
+                <li>Matthew Luzum (University of São Paulo)</li>
+                <li>Jean-François Paquet (Vanderbilt University)</li>
             </ul>
+				<h3>Graduate students</h3>
+            <ul>
+                <li>Lauren Kasper (Vanderbilt University)</li>
+                <li>Dan Liyanage (Ohio State University)</li>
+                <li>Andi Mankolliv(Vanderbilt University)</li>
+                <li>Derek Soeder (Duke University)</li>
+            </ul>
+				<h3>Postdocs</h3>
+				<ul>
+                <li>Lipei Du (McGill University)</li>
+                <li>Weiyao Ke (Los Alamos)</li>
+                                <li>Wenbin Zhao (Wayne State University)</li>
+                  </ul>              
+              <h3>Faculty</h3>
+              <ul>
+                <li>Steffen Bass (Duke University)</li>
+                <li>Charles Gale (McGill University)</li>
+                <li>Ulrich Heinz (Ohio State University)</li>
+                <li>Abhijit Majumder (Wayne State University)</li>
+                <li>Chun Shen (Wayne State University)</li>
+                <li>Julia Velkovska (Vanderbilt University)</li>
+                <li>Gojko Vujanovic [Convener: 2018-2021] (University of Regina)</li>
+                </ul>
+                
+				<h3>Alumni</h3>
+				<ul>
+                <li>Matthew Heffernan (McGill University, graduated 2022)</li>
+                <li>Derek Everett (Ohio State University, graduated 2021)</li>
+                 </ul>
+         
+            
+            
+            
+<!-- <table>
+<tr>
+<td>Conveners</td>
+<td>Graduate students</td>
+<td>Postdocs</td>
+<td>Faculty</td>
+<td>Alumni</td>
+</tr>
+<tr valign="top">
+<td>
+            <ul>
+                <li>Matthew Luzum (University of São Paulo)</li>
+                <li>Jean-François Paquet (Vanderbilt University)</li>
+            </ul>
+</td>
+<td>
+            <ul>
+                <li>Lauren Kasper (Vanderbilt University)</li>
+                <li>Dan Liyanage (Ohio State University)</li>
+                <li>Andi Mankolliv(Vanderbilt University)</li>
+                <li>Derek Soeder (Duke University)</li>
+                <li>Wenbin Zhao (Wayne State University)</li>
+            </ul>
+</td>
+<td>
+                <li>Lipei Du (McGill University)</li>
+                <li>Weiyao Ke (Los Alamos)</li>
+               </td>
+<td>
+                <li>Steffen Bass (Duke University)</li>
+                <li>Charles Gale (McGill University)</li>
+                <li>Ulrich Heinz (Ohio State University)</li>
+                <li>Abhijit Majumder (Wayne State University)</li>
+                <li>Chun Shen (Wayne State University)</li>
+                <li>Julia Velkovska (Vanderbilt University)</li>
+                <li>Gojko Vujanovic [Convener: 2018-2021] (University of Regina)</li>
+                
+</td>
+<td>
+                <li>Matthew Heffernan</li>
+                <li>Derek Everett</li>
+</td>
+</tr>
+</table>   -->           
         </div>
     </div>
 
