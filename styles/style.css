@@ -20,7 +20,7 @@
 /* formats the footer */
 #footerFlexible {
   color: black;
-  font-size: medium;
+  font-size: large;
   text-align: center;
   vertical-align: middle;
   padding-top: 10px;
@@ -74,7 +74,7 @@
   margin-bottom: 20px;
   text-align: left;
   color: #333747;
-  font-size: small;
+  font-size: medium;
 }
 
 /* formats the organizations tables */
@@ -87,7 +87,7 @@
   margin-bottom: 20px;
   text-align: left;
   color: #333747;
-  font-size: small;
+  font-size: medium;
 }
 
 /* formats various html tags  */
@@ -180,14 +180,14 @@ box-shadow: 10px 10px 50px #8aabb1;
 /* formats the captions under various images */
 .caption {
   text-align: center;
-  font-size: small;
+  font-size: medium;
   color: black;
 }
 
 /* formats the image captions on the SIMS group page */
 .simsCaption {
   text-align: center;
-  font-size: medium;
+  font-size: large;
   color: black;
 }
 
@@ -230,7 +230,7 @@ link links on the publications page */
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* additional formatting for the collapsible buttons
@@ -263,4 +263,9 @@ publication, and etc for each source on the publications page */
   margin-right: auto;
   padding: 5px;
   width: 80%;
+}
+
+/* formatting for a standard font size */
+.standardFont {
+  font-size: large;
 }
