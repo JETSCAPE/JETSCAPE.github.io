@@ -65,7 +65,7 @@
 
 /* formats the meetings and talks tables */
 #talkTable, #jetscapeMeetingsTable, #otherMeetingsTable {
-  position: block;
+  position: relative;
   margin: auto;
   box-shadow: 10px 10px 50px #8aabb1;
   margin-left: auto;
@@ -81,7 +81,7 @@
 .organizationsTable {
   table-layout: auto;
   width: 100%;
-  position: block;
+  position: relative;
   box-shadow: 10px 10px 50px #8aabb1;
   margin-top: 20px;
   margin-bottom: 20px;
