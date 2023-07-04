@@ -78,7 +78,7 @@
 }
 
 /* formats the organizations tables */
-#organizationsTable {
+.organizationsTable {
   table-layout: auto;
   width: 100%;
   position: block;
