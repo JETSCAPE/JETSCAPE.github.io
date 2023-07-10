@@ -13,7 +13,7 @@
 /* formats the navigation bar */
 #NavPanelFlexible {
   padding: 10px;
-  display: block
+  display: block;
   text-align: center;
 }
 
