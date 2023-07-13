@@ -23,5 +23,5 @@ jobs:
           pip3 install linkchecker
       - name: run linkchecker
         run: |
-          linkchecker --verbose --check-extern https://jetscape.org/nav.html
+          linkchecker --verbose --check-extern https://deepakraju294.github.io/JETSCAPE.github.io/nav.html
  
