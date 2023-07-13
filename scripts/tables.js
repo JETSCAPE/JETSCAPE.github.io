@@ -47,6 +47,12 @@ function createTable(dataFile, tableID, linkFunc) {
   $(document).ready(function () {
     $(tableID).DataTable(
     {
+      "columns": [
+        null,
+        { "width": "12%" },
+        { "width": "12%" },
+        null
+      ],
       "paging": false,
       "data": arr,
       "autoWidth": true,
