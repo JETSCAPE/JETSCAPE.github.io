@@ -3,9 +3,11 @@ on:
   pull_request:
     branches:
       - main
+      - LinkChecker
   push:
     branches:
       - main
+      - LinkChecker
   schedule:
     # run every day at 00:00 UTC
     - cron: '0 0 * * *'
