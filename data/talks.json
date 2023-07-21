@@ -1,27 +1,35 @@
 [
   [
-	  "13th MPI@LHC",
-	  "https://indico.ift.uam-csic.es/event/14/",
+    "Symposium on Challenges and Opportunities in Containerization of Software and Data Products",
+    "https://sites.google.com/view/containerization2023/",
+    "2023-07-23",
+    "Joseph Latessa",
+    "Experiences Containerizing the JETSCAPE/X-SCAPE Code",
+    "https://sites.google.com/view/containerization2023/schedule?authuser=0#h.bpylysm31kyv"
+  ],
+  [
+    "13th MPI@LHC",
+    "https://indico.ift.uam-csic.es/event/14/",
     "2021-11-15",
-	  "Chun Shen",
-	  "Multi-Messenger Heavy-ion Physics with JETSCAPE",
-	  "https://www.dropbox.com/s/9zv8b2ssw2mtxl2/Multi-MessengerJETSCAPE.pdf?dl=0"
+    "Chun Shen",
+    "Multi-Messenger Heavy-ion Physics with JETSCAPE",
+    "https://www.dropbox.com/s/9zv8b2ssw2mtxl2/Multi-MessengerJETSCAPE.pdf?dl=0"
   ],
   [
-	  "APS DNP 2023",
-	  "",
+    "APS DNP 2023",
+    "",
     "2022-10-28",
-	  "Arjun Sengupta",
-	  "A Systematic Study of In-Medium Hadronization of Jet Showers with JETSCAPE and Hybrid Hadronization",
-	  "https://meetings.aps.org/Meeting/DNP22/Session/EF.7"
+    "Arjun Sengupta",
+    "A Systematic Study of In-Medium Hadronization of Jet Showers with JETSCAPE and Hybrid Hadronization",
+    "https://meetings.aps.org/Meeting/DNP22/Session/EF.7"
   ],
   [
-	  "Conference on the Intersections of Particle and Nuclear Physics",
-	  "https://agenda.hep.wisc.edu/event/1644/contributions/26059/",
-	  "2022-08-29",
-	  "Wenbin Zhao",
-	  "Investigating the Quark Gluon Plasma with Multi-system Bayesian Analysis in the JETSCAPE framework",
-	  ""
+    "Conference on the Intersections of Particle and Nuclear Physics",
+    "https://agenda.hep.wisc.edu/event/1644/contributions/26059/",
+    "2022-08-29",
+    "Wenbin Zhao",
+    "Investigating the Quark Gluon Plasma with Multi-system Bayesian Analysis in the JETSCAPE framework",
+    ""
   ],
   [
     "CIPANP 2022",
