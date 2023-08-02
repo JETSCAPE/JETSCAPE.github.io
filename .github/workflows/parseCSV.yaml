@@ -24,7 +24,7 @@ jobs:
       - name: Parse CSV
         run: |
           cd $GITHUB_WORKSPACE/scripts
-          python3 parseCSV.py
+          python3 parseAuthors.py
 
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v2.3.0
