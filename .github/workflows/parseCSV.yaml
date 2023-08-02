@@ -31,6 +31,5 @@ jobs:
         with:
           commit_message: updated authors list json file
           branch: ${{ github.head_ref }}
-          file_pattern: data/JETSCAPE_Authors.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
