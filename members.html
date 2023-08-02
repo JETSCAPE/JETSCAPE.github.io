@@ -22,9 +22,12 @@
     <meta name="author" content="The JETSCAPE Collaboration">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script id="script_members" src="scripts/members.js"></script>
 </head>
 
-<body>
+<body onload="writeAuthors()">
   <div id="containerFlexible">
     <!-- header -->
     <div class="header">
@@ -42,8 +45,8 @@
       <h2>JETSCAPE Members</h2>
       <div>
         <!-- bulleted list of JETSCAPE members -->
-        <ul class="standardFont">
-          <li>A. Angerami: Lawrence Livermore National Laboratory, Livermore, CA 94550.</li>
+        <ul id="authorsTable" class="standardFont">
+          <!-- <li>A. Angerami: Lawrence Livermore National Laboratory, Livermore, CA 94550.</li>
           <li>S. A. Bass: Department of Physics, Duke University, Durham, NC 27708.</li>
           <li>S. Cao: Institute of Frontier and Interdisciplinary Science, Shandong University, Qingdao, Shandong 266237, China.</li>
           <li>Yi Chen: Laboratory for Nuclear Science, Massachusetts Institute of Technology, Cambridge MA 02139.</li>
@@ -97,7 +100,7 @@
           <li>J. Velkovska: Department of Physics and Astronomy, Vanderbilt University, Nashville TN.</li>
           <li>G. Vujanovic: Department of Physics and Astronomy, Wayne State University, Detroit MI 48201.</li>
           <li>X.-N. Wang: Department of Physics, University of California, Berkeley CA 94270, and Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley CA 94270.</li>
-          <li>R. L. Wolpert: Department of Statistical Science, Duke University, Durham, NC 27708.</li>
+          <li>R. L. Wolpert: Department of Statistical Science, Duke University, Durham, NC 27708.</li> -->
         </ul>
       </div>
     </div>  
