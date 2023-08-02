@@ -1,6 +1,6 @@
 # function to wrtie a json file
 import json
-
+import os
 
 # function to open a csv file and return its data as a multidimensional list
 def openCSV(filename):
@@ -68,14 +68,23 @@ def writeJSON(outputFile, data):
 
 
 def main():
-    repoRoot = '/home/jlate/jetscape/JETSCAPE.github.io'
+    repoRoot = 'jetscape.github.io'
     fileName = 'JETSCAPE_Authors.csv'
     fileNameJSON = 'JETSCAPE_Authors.json'
+
+    commandArgs = os.sys.argv
+    if len(commandArgs) > 1:
+        repoRoot = commandArgs[1]
+    
+    if len(commandArgs) > 2:
+        fileName = commandArgs[2]
+    
+    if len(commandArgs) > 3:
+        fileNameJSON = commandArgs[3]
 
     data = openCSV(repoRoot + '/data/' + fileName)
     printGrid(data)
     writeJSON(repoRoot + '/data/' + fileNameJSON, data)
-
 
 if __name__ == '__main__':
     main()
