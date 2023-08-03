@@ -20,6 +20,8 @@ JSON files in the [/data](/data) folder are used to populate lists and tables th
 
 * [/data/talks.json](/data/talks.json) provides the data for the **Talks** table on the [Talks](/talks.html) page.
 
+* [/data/JETSCAPE_Authors.json](/data/JETSCAPE_Authors.json) is built automatically from [/data/JETSCAPE_Authors.csv](/data/JETSCAPE_Authors.csv) and populates the author names and affiliations on the [Members](/members.html) page.  To update the members, update the .csv file.  A [GitHub Actions workflow](/.github/workflows/parseCSV.yaml) runs on pushes and pull requests to the **main** branch to generate the corresponding .json file.  Updates to the .csv must maintain the same document structure and delimiters as read by [/scripts/parseAuthors.py](/scripts/parseAuthors.py).
+
 ## Requesting Site Updates
 
 Since the site is now managed as a GitHub repository, JETSCAPE collaborators are welcome to create issues [here](https://github.com/JETSCAPE/JETSCAPE.github.io/issues) and submit pull requests [here](https://github.com/JETSCAPE/JETSCAPE.github.io/pulls).

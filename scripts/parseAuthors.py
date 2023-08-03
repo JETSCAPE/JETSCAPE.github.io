@@ -22,28 +22,37 @@ def openCSV(filename):
 
         j = 0
         while j < len(rows[i]):
+            # captures the first name
             firstName = ''
             while not rows[i][j] == ',':
                 firstName += rows[i][j]
                 j += 1
 
+            # advances past non-alpha characters after
+            # the first delimiter
             while not  rows[i][j].isalpha():
                 j += 1
 
+            # captures the last name
             lastName = ''
             while not rows[i][j] == ',':
                 lastName += rows[i][j]
                 j += 1
 
+            # advances past non-alpha characters after
+            # the second delimiter, which includes
+            # the opening quotation mark
             while not rows[i][j].isalpha():
                 j += 1
 
+            # captures the institution column including
+            # the commas and stops at the second quotation mark
             institution = ''
             while not rows[i][j] == '"':
                 institution += rows[i][j]
                 j += 1
 
-            # rows[i] = [firstName, lastName, institution]
+            # formats array element as a string
             rows[i] = f"{firstName} {lastName}, {institution}"
 
     return rows
@@ -56,14 +65,10 @@ def printGrid(grid):
         print(grid[i])
 
 
-# write a 2D list to a json file
+# function to write a 2D list to a json file
 def writeJSON(outputFile, data):
-    # open the file
     file = open(outputFile, 'w')
-    # write the data to the file wit line breaks for readability
     file.write(json.dumps(data, indent = 4))
-
-    # close the file
     file.close()
 
 
