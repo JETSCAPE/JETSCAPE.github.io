@@ -1,0 +1,35 @@
+name: Parse JETSCAPE_Authors.csv
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  csv-parser:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # run the python script to parse the csv file
+      - name: Parse CSV
+        run: |
+          cd $GITHUB_WORKSPACE/scripts
+          python3 parseAuthors.py $GITHUB_WORKSPACE JETSCAPE_Authors.csv JETSCAPE_Authors.json
+
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v2.3.0
+        with:
+          commit_message: updated authors list json file
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
