@@ -1,0 +1,37 @@
+name: Link Checker
+on:
+  pull_request:
+    branches:
+      - main
+      - LinkChecker
+  push:
+    branches:
+      - main
+      - LinkChecker
+  schedule:
+    # run every day at 00:00 UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: |
+          pip3 install --upgrade pip
+          pip3 install linkchecker requests
+      - name: check json file links
+        run: |
+          cd $GITHUB_WORKSPACE/tests
+          python3 linkchecker.py $GITHUB_WORKSPACE/data
+      - name: run linkchecker
+        run: |
+          cd $GITHUB_WORKSPACE/
+          nohup python3 -m http.server </dev/null >/dev/null 2>&1 &
+          export LOCAL_HOST=$(hostname -i)
+          linkchecker --verbose --check-extern http://${LOCAL_HOST}:8000/nav.html
+
+
+ 
