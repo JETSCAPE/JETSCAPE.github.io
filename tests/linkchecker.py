@@ -10,8 +10,8 @@ default_data_folder = '/home/echo/jetscape/JETSCAPE.github.io/data'
 def check_url(url, file):
     try: 
         # delete trailing backslashes
-        # while url[-1] == '\\':
-            # url = url[:-1]
+        while url[-1] == '\\':
+            url = url[:-1]
 
         # replace any backslash with forward slash
         url = url.replace('\\', '/')
