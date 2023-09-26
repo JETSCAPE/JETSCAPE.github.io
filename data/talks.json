@@ -1,11 +1,27 @@
 [
   [
+    "Quark Matter 2023",
+    "https://indico.cern.ch/event/1139644/",
+    "2023-09-05",
+    "Raymond Ehlers",
+    "Measuring jet quenching with a Bayesian Inference analysis of hadron and jet data by JETSCAPE",
+    "https://indico.cern.ch/event/1139644/contributions/5490498/"
+  ],
+  [
     "Symposium on Challenges and Opportunities in Containerization of Software and Data Products",
     "https://sites.google.com/view/containerization2023/",
     "2023-07-23",
     "Joseph Latessa",
     "Experiences Containerizing the JETSCAPE/X-SCAPE Code",
     "https://sites.google.com/view/containerization2023/schedule?authuser=0#h.bpylysm31kyv"
+  ],
+  [
+    "Hard Probes 2023",
+    "https://wwuindico.uni-muenster.de/event/1409/",
+    "2023-03-28",
+    "Yi Chen",
+    "A multi-messenger Bayesian Inference analysis of QGP jet transport using inclusive hadron and reconstructed jet data by JETSCAPE",
+    "https://wwuindico.uni-muenster.de/event/1409/contributions/2053/"
   ],
   [
     "13th MPI@LHC",
