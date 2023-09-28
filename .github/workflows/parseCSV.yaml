@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PROTECTED_BRANCH_TOKEN }}
 
       # run the python script to parse the csv file
       - name: Parse CSV
