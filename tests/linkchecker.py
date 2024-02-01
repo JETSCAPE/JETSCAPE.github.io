@@ -21,6 +21,10 @@ def check_url(url, file):
         if response.status_code == 200:
             # print('Checking url: ' + url + ' in file: ' + file)
             return True
+        elif response.status_code == 418:
+            print('Server issued status code: ' + str(response.status_code))
+            print('for url: ' + url + ' in file: ' + file + '\n')
+            return True
         elif response.status_code == 403:
             print('Warning, status code: ' + str(response.status_code))
             print('potentially unreachable url: ' + url + ' in file: ' + file + '\n')
