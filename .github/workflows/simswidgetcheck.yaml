@@ -1,0 +1,26 @@
+name: SIMS Widget Check
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  schedule:
+    # run every Sunday at 00:00 UTC
+    - cron: '0 0 * * 0'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: |
+          pip3 install --upgrade pip
+          pip3 install requests
+      - name: check whether SIMS Widget is reachable
+        run: |
+          cd $GITHUB_WORKSPACE/tests
+          python3 simswidgetcheck.py
