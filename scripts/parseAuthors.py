@@ -55,6 +55,10 @@ def openCSV(filename):
             # formats array element as a string
             rows[i] = f"{firstName} {lastName}, {institution}"
 
+    # if the last row is empty, delete it
+    if rows[-1] == '':
+        del rows[-1]
+
     return rows
 
 
