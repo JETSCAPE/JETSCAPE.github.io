@@ -1,4 +1,8 @@
-# function to wrtie a json file
+# The JETSCAPE Collaboration
+#
+# This script reads a CSV file containing author data
+# and writes that data to a JSON file.
+
 import json
 import os
 

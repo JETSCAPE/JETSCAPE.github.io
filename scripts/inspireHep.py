@@ -1,3 +1,9 @@
+# The JETSCAPE Collaboration
+#
+# This script queries the InspireHEP api for publications
+# from the JETSCAPE collaboration and writes that data to
+# a JSON file.
+
 import json
 import os
 import urllib.request

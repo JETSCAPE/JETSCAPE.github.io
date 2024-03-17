@@ -1,3 +1,4 @@
+// The JETSCAPE Collaboration
 
 let dataFile = "data/JETSCAPE_Authors.json";
 let tableID = "#authorsTable";
