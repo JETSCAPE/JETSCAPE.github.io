@@ -62,7 +62,7 @@ let buildString = (arr) => {
                     str += "<p>" + arr[j].title + "</p>";
                 
                 // if the journal fields are not empty, print them
-                // along with any volume number, issue number, page numbers, year,
+                // along with any volume number, issue number, page numbers, year
                 if (arr[j].journal) {
                     if (arr[j].journal)
                         str += "<p>" + arr[j].journal;
@@ -77,7 +77,7 @@ let buildString = (arr) => {
                     str += "</p>";
                 }
 
-                // if the url or doi fields are not empty, print them as links
+                // if the url, doi, or arxiv_eprint fields are not empty, print them as links
                 // in a collapsible div
                 if (arr[j].url || arr[j].doi) {
                     str += "<button type=\"button\" class=\"collapsible\">Links</button>";
@@ -87,6 +87,9 @@ let buildString = (arr) => {
                          arr[j].doi + "</a></p>";
                     if (arr[j].url)
                         str += "<p><a href=\"" + arr[j].url + "\">" + arr[j].url + "</a></p>";
+                    if (arr[j].arxiv_eprint)
+                        str += "<p>e-print: <a href=\"https://arxiv.org/abs/" + arr[j].arxiv_eprint + "\">" +
+                         arr[j].arxiv_eprint + "</a></p>";
                     str += "</div>";
                 }
 

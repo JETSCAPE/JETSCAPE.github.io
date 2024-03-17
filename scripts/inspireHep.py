@@ -1,9 +1,12 @@
 import json
+import os
 import urllib.request
 from datetime import datetime
 
 # function to get  data from the InspireHEP api query
-def get_inspirehep_data(url):
+def get_inspireHep_data(url):
+    # for testing, try a path to the file stored locally to
+    # avoid repeatedly querying the api
     try:
         with open('inspireHep.json', 'r') as f:
             data = json.load(f)
@@ -48,6 +51,11 @@ def parse_data(data):
             record.doi = hit['metadata']['dois'][0]['value']
         else:
             record.doi = ''
+
+        if 'arxiv_eprints' in hit['metadata']:
+            record.arxiv_eprint = hit['metadata']['arxiv_eprints'][0]['value']
+        else:
+            record.arxiv_eprint = ''
 
         if 'abstracts' in hit['metadata']:
             record.abstract = hit['metadata']['abstracts'][0]['value']
@@ -130,8 +138,8 @@ def print_records(records):
             print(record.abstract)
         if record.doi:
             print(record.doi)
-        # if record.publication_info:
-        #     print(record.publication_info)
+        if record.arxiv_eprint:
+            print(record.arxiv_eprint)
         print('------------------------------------')
 
 
@@ -143,23 +151,69 @@ def print_records_json(records, output_json):
     with open(output_json, 'w') as f:
         json.dump([record.__dict__ for record in records], f, indent=4)
 
+# function to count the number of records in a JSON file
+def count_records_json(output_json):
+    with open(output_json, 'r') as f:
+        data = json.load(f)
+    return len(data)
 
 def main():
     earliest_date = datetime(1900, 1, 1)
 
-    # url = 'https://inspirehep.net/api/literature?collaboration=JETSCAPE'
+    # url query
     url = 'https://inspirehep.net/api/literature?sort=mostrecent&size=250&page=1&q=collaboration%3AJETSCAPE&ui-citation-summary=false'
-    # url = 'https://inspirehep.net/api/literature?fields=titles,authors.full_name,authors.affiliations&?sort=mostrecent&size=250&page=1&q=collaboration%3AJETSCAPE&ui-citation-summary=false'
 
+    # file paths
+    output_temp = '../data/publications_temp.json'
     output_json = '../data/publications.json'
 
-    data = get_inspirehep_data(url)
+    # requests inspireHep data from url query
+    data = get_inspireHep_data(url)
+
     print('Total number of hits:', data['hits']['total'])
     print('------------------------------------')
+
+    # creates our json data from the inspireHep data
+    # puts it in a temp file
     records = parse_data(data)
-    print_records(records)
+    print_records_json(records, output_temp)
+
+    # counts the number of records in the new (temp) file
+    # and in the old file, from the active directory
+    try:
+        with open(output_json, 'r') as f:
+            old_count = count_records_json(output_json)
+            new_count = count_records_json(output_temp)
+            print('Old count:', old_count)
+            print('New count:', new_count)
+    except FileNotFoundError:
+        print('Error:  File', output_json, 'not found.')
+        exit(1)
+
+    # if there are fewer new records than old records, this
+    # is considered an error
+    if new_count > old_count:
+        print('New json file has more records than the old json file:', new_count - old_count)
+    elif new_count == old_count:
+        print('New json file has the same number of records as the old json file.')
+    else:
+        print('Error: New json file has fewer records than the old json file.')
+        exit(2)
+
     print_records_json(records, output_json)
 
+    # removes the temp files
+    try:
+        os.remove(output_temp)
+    except FileNotFoundError:
+        print('Error: File to be deleted', output_temp, ' should have existed but was not found.')
+        exit(3)
+
+    try:
+        os.remove('inspireHep.json')
+    except FileNotFoundError:
+        print('Error: File to be deleted inspireHep.json should have existed but was not found.')
+        exit(4)
 
 if __name__ == '__main__':
     main()
