@@ -1,0 +1,49 @@
+name: Publications Update
+on:
+  schedule:
+    # run every Sunday at 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  publications-auto-update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: inspireHep_auto
+          token: ${{ secrets.PROTECTED_BRANCH_TOKEN }}
+
+      # run the python script to query and parse the json data from inspireHep
+      - name: Run Python Script (queries and parses json data from inspireHep)
+        run: |
+          cd $GITHUB_WORKSPACE/scripts
+          python3 inspireHep.py
+
+      - name: Check Python Script's Exit Code
+        run: |
+          exit_code=$?
+          if [ "${exit_code}" -ne 0 ]; then
+            echo "Exit Code ${exit_code}"
+            exit ${exit_code}
+          fi
+
+      - name: Log File Differences (if any)
+        run: |
+          git status
+          git diff
+
+      - name: Commit Changed Files
+        uses: stefanzweifel/git-auto-commit-action@v2.3.0
+        with:
+          commit_message: updated publications list json file
+          branch: inspireHep_auto
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

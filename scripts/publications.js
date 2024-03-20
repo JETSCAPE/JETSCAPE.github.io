@@ -32,55 +32,52 @@ let getUnique = (arr, key) => {
 // This function builds the html string for the publications list.
 let buildString = (arr) => {
     let str = "";
-    let uniqueYears = getUnique(arr, "year");
+    let uniqueYears = getUnique(arr, "earliest_year");
 
     for (let i = 0; i < uniqueYears.length; i++) {
 
         // prints the relevant as a header
         str += "<h3 class=\"yearHeader\">" + uniqueYears[i] + "</h3>";
         for (let j = 0; j < arr.length; j++) {
-            if (arr[j].year === uniqueYears[i]) {
+            if (arr[j].earliest_year === uniqueYears[i]) {
 
                 // a div to apply css formatting to the article block
                 str += "<div = class=\"articleBlock\">";
 
                 // if the author field is not empty, print it
                 if (arr[j].author)
-                    str += "<p>" + arr[j].author + "</p>";
+                    str += "<p>" + arr[j].author;
+                    if (arr[j].first_author_affiliation)
+                        str += " (" + arr[j].first_author_affiliation + ")";
+                    if (arr[j].et_al)
+                        str += " et al.";
+                    if (arr[j].date)
+                        str += " (" + arr[j].date + ")";
+                    str += "</p>";
 
                 // if the title also includes an url, print it as a link
                 if (arr[j].title && arr[j].url)
                     str += "<p><a href=\"" + arr[j].url + "\">" + arr[j].title + "</a></p>";
                 else if (arr[j].title)
                     str += "<p>" + arr[j].title + "</p>";
-
-                // if the tppubtype and pubstate fields are not empty, print them
-                if (arr[j].tppubtype && arr[j].pubstate)
-                    str += "<p>" + arr[j].tppubtype + " " + arr[j].pubstate + "</p>";
                 
-                // if the journal or booktitle fields are not empty, print them
-                // along with any volume number, issue number, page numbers, year,
-                // and note fields that are available
-                if (arr[j].journal || arr[j].booktitle) {
+                // if the journal fields are not empty, print them
+                // along with any volume number, issue number, page numbers, year
+                if (arr[j].journal) {
                     if (arr[j].journal)
                         str += "<p>" + arr[j].journal;
-                    else if (arr[j].booktitle)
-                        str += "<p>" + arr[j].booktitle;
-
                     if (arr[j].volume)
                         str += ", vol. " + arr[j].volume;
                     if (arr[j].number)
                         str += ", no. " + arr[j].number;
                     if (arr[j].pages)
                         str += ", pp. " + arr[j].pages;
-                    if (arr[j].year)
-                        str += ", " + arr[j].year;
-                    if (arr[j].note)
-                        str += ", " + arr[j].note;
-                    str += ".</p>";
+                    if (arr[j].pub_year)
+                        str += " (" + arr[j].pub_year + ")";
+                    str += "</p>";
                 }
 
-                // if the url or doi fields are not empty, print them as links
+                // if the url, doi, or arxiv_eprint fields are not empty, print them as links
                 // in a collapsible div
                 if (arr[j].url || arr[j].doi) {
                     str += "<button type=\"button\" class=\"collapsible\">Links</button>";
@@ -90,6 +87,9 @@ let buildString = (arr) => {
                          arr[j].doi + "</a></p>";
                     if (arr[j].url)
                         str += "<p><a href=\"" + arr[j].url + "\">" + arr[j].url + "</a></p>";
+                    if (arr[j].arxiv_eprint)
+                        str += "<p>e-print: <a href=\"https://arxiv.org/abs/" + arr[j].arxiv_eprint + "\">" +
+                         arr[j].arxiv_eprint + "</a></p>";
                     str += "</div>";
                 }
 
