@@ -18,7 +18,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          ref: inspireHep_auto
+          ref: main
           token: ${{ secrets.PROTECTED_BRANCH_TOKEN }}
 
       # run the python script to query and parse the json data from inspireHep
@@ -44,6 +44,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v2.3.0
         with:
           commit_message: updated publications list json file
-          branch: inspireHep_auto
+          branch: main
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
