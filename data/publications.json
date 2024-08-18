@@ -1,5 +1,17 @@
 [
     {
+        "id": 2818238,
+        "url": "https://inspirehep.net/literature/2818238",
+        "title": "Bayesian Inference analysis of jet quenching using inclusive jet and hadron suppression measurements",
+        "author": "Ehlers, R.",
+        "et_al": "et al.",
+        "earliest_date": "2024-08-15",
+        "date": "August 15, 2024",
+        "earliest_year": 2024,
+        "arxiv_eprint": "2408.08247",
+        "abstract": "The JETSCAPE Collaboration reports a new determination of the jet transport parameter $\\hat{q}$ in the Quark-Gluon Plasma (QGP) using Bayesian Inference, incorporating all available inclusive hadron and jet yield suppression data measured in heavy-ion collisions at RHIC and the LHC. This multi-observable analysis extends the previously published JETSCAPE Bayesian Inference determination of $\\hat{q}$, which was based solely on a selection of inclusive hadron suppression data. JETSCAPE is a modular framework incorporating detailed dynamical models of QGP formation and evolution, and jet propagation and interaction in the QGP. Virtuality-dependent partonic energy loss in the QGP is modeled as a thermalized weakly-coupled plasma, with parameters determined from Bayesian calibration using soft-sector observables. This Bayesian calibration of $\\hat{q}$ utilizes Active Learning, a machine--learning approach, for efficient exploitation of computing resources. The experimental data included in this analysis span a broad range in collision energy and centrality, and in transverse momentum. In order to explore the systematic dependence of the extracted parameter posterior distributions, several different calibrations are reported, based on combined jet and hadron data; on jet or hadron data separately; and on restricted kinematic or centrality ranges of the jet and hadron data. Tension is observed in comparison of these variations, providing new insights into the physics of jet transport in the QGP and its theoretical formulation."
+    },
+    {
         "id": 2810715,
         "url": "https://inspirehep.net/literature/2810715",
         "title": "A soft-hard framework with exact four momentum conservation for small systems",
