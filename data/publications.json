@@ -166,15 +166,20 @@
     {
         "id": 2621210,
         "url": "https://inspirehep.net/literature/2621210",
-        "title": "Hard Jet Substructure in a Multi-stage Approach",
+        "title": "Hard jet substructure in a multistage approach",
         "author": "Tachibana, Y.",
         "et_al": "et al.",
         "first_author_affiliation": "Akita Intl. U.",
         "earliest_date": "2023-01-06",
         "date": "January 06, 2023",
         "earliest_year": 2023,
+        "doi": "10.1103/PhysRevC.110.044907",
         "arxiv_eprint": "2301.02485",
-        "abstract": "We present predictions and postdictions for a wide variety of hard jet-substructure observables using a multi-stage model within the JETSCAPE framework. The details of the multi-stage model and the various parameter choices are described in [A. Kumar et al., arXiv:2204.01163]. A novel feature of this model is the presence of two stages of jet modification: a high virtuality phase (modeled using MATTER), where coherence effects diminish medium-induced radiation, and a lower virtuality phase (modeled using LBT), where parton splits are fully resolved by the medium as they endure multiple scattering induced energy loss. Energy loss calculations are carried out on event-by-event viscous fluid dynamic backgrounds constrained by experimental data. The uniformed and consistent descriptions of multiple experimental observables demonstrate the essential role of coherence effects and the multi-stage modeling of the jet evolution. Using the best choice of parameters from [A. Kumar et al., arXiv:2204.01163], and with no further tuning, we present calculations for the medium modified jet fragmentation function, the groomed jet momentum fraction $z_g$ and angular separation $r_g$ distributions, as well as the nuclear modification factor of groomed jets. These calculations provide accurate descriptions of published and preliminary data from experiments at RHIC and LHC. Furthermore, we provide predictions from the multi-stage model for future measurements at RHIC."
+        "abstract": "We present predictions and postdictions for a wide variety of hard jet-substructure observables using a multistage model within the jetscape framework. The details of the multistage model and the various parameter choices are described in [Phys. Rev. C 107, 034911 (2023)]. A novel feature of this model is the presence of two stages of jet modification: a high-virtuality phase [modeled using the modular all twist transverse-scattering elastic-drag and radiation model (matter)], where modified coherence effects diminish medium-induced radiation, and a lower virtuality phase [modeled using the linear Boltzmann transport model (lbt)], where parton splits are fully resolved by the medium as they endure multiple scattering induced energy loss. Energy-loss calculations are carried out on event-by-event viscous fluid dynamic backgrounds constrained by experimental data. The uniform and consistent descriptions of multiple experimental observables demonstrate the essential role of modified coherence effects and the multistage modeling of jet evolution. Using the best choice of parameters from [Phys. Rev. C 107, 034911] (2023)], and with no further tuning, we present calculations for the medium modified jet fragmentation function, the groomed jet momentum fraction <math><msub><mi>z</mi><mi>g</mi></msub></math> and angular separation <math><msub><mi>r</mi><mi>g</mi></msub></math> distributions, as well as the nuclear modification factor of groomed jets. These calculations provide accurate descriptions of published data from experiments at the Large Hadron Collider. Furthermore, we provide predictions from the multistage model for future measurements at the BNL Relativistic Heavy Ion Collider.",
+        "journal": "Phys.Rev.C",
+        "volume": "110",
+        "issue": "4",
+        "pub_year": "2024"
     },
     {
         "id": 2640936,
