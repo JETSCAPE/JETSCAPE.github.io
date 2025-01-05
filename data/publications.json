@@ -1,5 +1,17 @@
 [
     {
+        "id": 2863207,
+        "url": "https://inspirehep.net/literature/2863207",
+        "title": "Hard Photon Triggered Jets in $p$-$p$ and $A$-$A$ Collisions",
+        "author": "Sirimanna, C.",
+        "et_al": "et al.",
+        "earliest_date": "2024-12-27",
+        "date": "December 27, 2024",
+        "earliest_year": 2024,
+        "arxiv_eprint": "2412.19738",
+        "abstract": "An investigation of high transverse momentum (high-$p_T$) photon triggered jets in proton-proton ($p$-$p$) and ion-ion ($A$-$A$) collisions at $\\sqrt{s_{NN}} = 0.2$ and $5.02~\\mathrm{TeV}$ is carried out, using the multistage description of in-medium jet evolution. Monte Carlo simulations of hard scattering and energy loss in heavy-ion collisions are performed using parameters tuned in a previous study of the nuclear modification factor ($R_{AA}$) for inclusive jets and high-$p_T$ hadrons. We obtain a good reproduction of the experimental data for photon triggered jet $R_{AA}$, as measured by the ATLAS detector, the distribution of the ratio of jet to photon $p_T$ ($X_{\\rm J \\gamma}$), measured by both CMS and ATLAS, and the photon-jet azimuthal correlation as measured by CMS. We obtain a moderate description of the photon triggered jet $I_{AA}$, as measured by STAR. A noticeable improvement in the comparison is observed when one goes beyond prompt photons and includes bremsstrahlung and decay photons, revealing their significance in certain kinematic regions, particularly at $X_{J\\gamma} > 1$. Moreover, azimuthal angle correlations demonstrate a notable impact of non-prompt photons on the distribution, emphasizing their role in accurately describing experimental results. This work highlights the success of the multistage model of jet modification to straightforwardly predict (this set of) photon triggered jet observables. This comparison, along with the role played by non-prompt photons, has important consequences on the inclusion of such observables in a future Bayesian analysis."
+    },
+    {
         "id": 2818238,
         "url": "https://inspirehep.net/literature/2818238",
         "title": "Bayesian Inference analysis of jet quenching using inclusive jet and hadron suppression measurements",
