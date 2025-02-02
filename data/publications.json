@@ -1,5 +1,18 @@
 [
     {
+        "id": 2873348,
+        "url": "https://inspirehep.net/literature/2873348",
+        "title": "Hybrid Hadronization -- A Study of In-Medium Hadronization of Jets",
+        "author": "Sengupta, A.",
+        "et_al": "et al.",
+        "first_author_affiliation": "Texas A-M, Cyclotron Inst., Texas A-M",
+        "earliest_date": "2025-01-27",
+        "date": "January 27, 2025",
+        "earliest_year": 2025,
+        "arxiv_eprint": "2501.16482",
+        "abstract": "QCD jets are considered important probes for quark gluon plasma created in collisions of nuclei at high energies. Their parton showers are significantly altered if they develop inside of a deconfined medium. Hadronization of jets is also thought to be affected by the presence of quarks and gluons. We present a systematic study of the effects of a thermal bath of partons on the hadronization of parton showers. We use the JETSCAPE framework to create parton showers both in vacuum and in a brick of quark gluon plasma. The brick setup allows important parameters, like the size of the plasma as well as the collective flow of partons, to be varied systematically. We hadronize the parton showers using Hybrid Hadronization, which permits shower partons to form strings with thermal partons, or to recombine directly with thermal partons as well as with each other. We find a sizeable amount of interaction of shower partons with thermal partons during hadronization, indicating a natural continuation of the interaction of jet and medium during this stage. The observed effects grow with the size of the medium. Collective flow easily transfers from the thermal partons onto the emerging jet hadrons. We also see a significant change in hadron chemistry as expected in the presence of quark recombination processes."
+    },
+    {
         "id": 2863207,
         "url": "https://inspirehep.net/literature/2863207",
         "title": "Hard Photon Triggered Jets in $p$-$p$ and $A$-$A$ Collisions",
