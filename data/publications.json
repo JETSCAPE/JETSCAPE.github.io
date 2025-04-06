@@ -1,5 +1,18 @@
 [
     {
+        "id": 2906076,
+        "url": "https://inspirehep.net/literature/2906076",
+        "title": "Enhanced signal of momentum broadening in hard splittings for $\\gamma$-tagged jets in a multistage approach",
+        "author": "Tachibana, Y.",
+        "et_al": "et al.",
+        "first_author_affiliation": "Akita Intl. U.",
+        "earliest_date": "2025-03-30",
+        "date": "March 30, 2025",
+        "earliest_year": 2025,
+        "arxiv_eprint": "2503.23693",
+        "abstract": "We investigate medium-induced modifications to jet substructure observables that characterize hard splitting patterns in central Pb-Pb collisions at the top energy of the Large Hadron Collider (LHC). Using a multistage Monte Carlo simulation of in-medium jet shower evolution, we explore flavor-dependent medium effects through simulations of inclusive and $\\gamma$-tagged jets. The results show that quark jets undergo a non-monotonic modification compared to gluon jets in observables such as the Pb-Pb to $p$-$p$ ratio of the Soft Drop prong angle $r_g$, the relative prong transverse momentum $k_{T,g}$ and the groomed mass $m_g$ distributions. Due to this non-monotonic modification, $\\gamma$-tagged jets, enriched in quark jets, provide surprisingly clear signals of medium-induced structural modifications, distinct from effects dominated by selection bias. This work highlights the potential of hard substructures in $\\gamma$-tagged jets as powerful tools for probing the jet-medium interactions in high-energy heavy-ion collisions. All simulations for $\\gamma$-tagged jet analyses carried out in this paper used triggered events containing at least one hard photon, which highlights the utility of these observables for future Bayesian analysis."
+    },
+    {
         "id": 2873348,
         "url": "https://inspirehep.net/literature/2873348",
         "title": "Hybrid Hadronization -- A Study of In-Medium Hadronization of Jets",
