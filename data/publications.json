@@ -1,5 +1,20 @@
 [
     {
+        "id": 2912952,
+        "url": "https://inspirehep.net/literature/2912952",
+        "title": "Multi-observable analysis of jet quenching using Bayesian inference with JETSCAPE",
+        "author": "Du, Lipei",
+        "first_author_affiliation": "UC, Berkeley, LBNL, NSD, McGill U.",
+        "earliest_date": "2025-04-11",
+        "date": "April 11, 2025",
+        "earliest_year": 2025,
+        "doi": "10.1016/j.nuclphysa.2025.123100",
+        "abstract": "The Jetscape Collaboration presents a new determination of the jet transport parameter <math altimg=\"si1.svg\"><mover accent=\"true\"><mrow><mi>q</mi></mrow><mrow><mo stretchy=\"false\">\u02c6</mo></mrow></mover></math> in the Quark-Gluon Plasma (QGP) using Bayesian Inference. This study expands on previous work by incorporating a comprehensive data set from inclusive hadron and jet yield suppression measurements at RHIC and the LHC. Utilizing Active Learning and other machine-learning approaches for computational efficiency, the analysis efficiently explores the parameter space and studies systematic dependencies across various kinematic and centrality ranges. The results highlight tensions in the extracted <math altimg=\"si1.svg\"><mover accent=\"true\"><mrow><mi>q</mi></mrow><mrow><mo stretchy=\"false\">\u02c6</mo></mrow></mover></math> values across different data sets, providing deeper insights into the physics of jet transport in the QGP.",
+        "journal": "Nucl.Phys.A",
+        "volume": "1060",
+        "pub_year": "2025"
+    },
+    {
         "id": 2906076,
         "url": "https://inspirehep.net/literature/2906076",
         "title": "Enhanced signal of momentum broadening in hard splittings for $\\gamma$-tagged jets in a multistage approach",
