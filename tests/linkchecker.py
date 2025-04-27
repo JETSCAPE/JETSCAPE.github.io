@@ -16,7 +16,8 @@ def check_url(url, file):
         # replace any backslash with forward slash
         url = url.replace('\\', '/')
 
-        response = requests.get(url, timeout=30)
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers, timeout=30)
 
         if response.status_code == 200:
             # print('Checking url: ' + url + ' in file: ' + file)
