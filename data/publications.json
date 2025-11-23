@@ -8,8 +8,12 @@
         "earliest_date": "2025-06-19",
         "date": "June 19, 2025",
         "earliest_year": 2025,
+        "doi": "10.1051/epjconf/202533902010",
         "arxiv_eprint": "2506.15990",
-        "abstract": "We present a comprehensive study of jet substructure modifications in high-energy heavy-ion collisions using both inclusive jets and $\u03b3$-tagged jets, based on a multi-stage jet evolution model within the Monte Carlo framework JETSCAPE. To investigate hard parton splittings inside jets, we focus on Soft Drop observables. Our results for the groomed splitting radius and groomed jet mass distributions of inclusive jets show a slight narrowing compared to proton-proton baselines. We demonstrate that this apparent narrowing is primarily a selection bias from energy loss, rather than a direct modification of the splitting structure, by analyzing $\u03b3$-tagged jets, where such bias is eliminated or significantly reduced. We also show that quark jets exhibit genuine modifications in their splitting structure, which is not seen in gluon jets. These effects are clearly visible in the substructure of $\u03b3$-tagged jets, which are dominated by quark jets, but are not apparent for inclusive jets. This demonstrates that $\u03b3$-tagged jets offer a powerful probe of medium-induced modifications to the hard splitting structure of jets."
+        "abstract": "We present a comprehensive study of jet substructure modifications in high-energy heavy-ion collisions using both inclusive jets and \u03b3-tagged jets, based on a multi-stage jet evolution model within the Monte Carlo framework JETSCAPE. To investigate hard parton splittings inside jets, we focus on Soft Drop observables. Our results for the groomed splitting radius and groomed jet mass distributions of inclusive jets show a slight narrowing compared to proton-proton baselines. We demonstrate that this apparent narrowing is primarily a selection bias from energy loss, rather than a direct modification of the splitting structure, by analyzing \u03b3-tagged jets, where such bias is eliminated or significantly reduced. We also show that quark jets exhibit genuine modifications in their splitting structure, which is not seen in gluon jets. These effects are clearly visible in the substructure of \u03b3-tagged jets, which are dominated by quark jets, but are not apparent for inclusive jets. This demonstrates that \u03b3-tagged jets offer a powerful probe of medium-induced modifications to the hard splitting structure of jets.",
+        "journal": "EPJ Web Conf.",
+        "volume": "339",
+        "pub_year": "2025"
     },
     {
         "id": 2912952,
