@@ -9,7 +9,6 @@ default_data_folder = '/home/echo/jetscape/JETSCAPE.github.io/data'
 # returns a boolean
 SSL_IGNORE = [
     "indico.ectstar.eu",
-    "april.aps.org",
 ]
 
 def check_url(url, file):
