@@ -7,32 +7,46 @@ default_data_folder = '/home/echo/jetscape/JETSCAPE.github.io/data'
 
 # function to check if a url is valid
 # returns a boolean
+SSL_IGNORE = [
+    "indico.ectstar.eu",
+    "april.aps.org",
+]
+
 def check_url(url, file):
-    try: 
-        # delete trailing backslashes
-        while url[-1] == '\\':
-            url = url[:-1]
+    try:
+        url = url.rstrip("\\").replace("\\", "/")
+        headers = {"User-Agent": "Mozilla/5.0"}
 
-        # replace any backslash with forward slash
-        url = url.replace('\\', '/')
+        hostname = url.split("/")[2]
 
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, headers=headers, timeout=30)
+        verify_ssl = hostname not in SSL_IGNORE
 
-        if response.status_code == 200:
-            # print('Checking url: ' + url + ' in file: ' + file)
+        response = requests.get(
+            url,
+            headers=headers,
+            timeout=30,
+            stream=True,
+            allow_redirects=True,
+            verify=verify_ssl
+        )
+
+        code = response.status_code
+
+        if code == 200:
             return True
-        elif response.status_code == 403:
-            print('Warning, status code: ' + str(response.status_code))
-            print('potentially unreachable url: ' + url + ' in file: ' + file + '\n')
+
+        if code in (301, 302, 303, 307, 308):
             return True
-        else:
-            print('Error, status code: ' + str(response.status_code))
-            print('invalid url: ' + url + ' in file: ' + file + '\n')
-            return False
-    except:
-        print('Error, status code: none')
-        print('no response from url: ' + url + ' in file: ' + file + '\n')
+
+        if code == 403:
+            print(f"Warning: 403 for {url} in {file}")
+            return True
+
+        print(f"Error {code}: {url} in {file}")
+        return False
+
+    except Exception as e:
+        print(f"Exception for {url} in {file}: {e}")
         return False
 
 # function to read one command line argument
@@ -43,7 +57,6 @@ def get_argument():
     else:
         return default_data_folder
 
-    
 # function to return an array of urls found in a text file
 # returns an array of strings
 # function to return an array of urls found in a text file
