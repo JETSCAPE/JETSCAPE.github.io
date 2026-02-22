@@ -13,6 +13,25 @@
         "abstract": "A comprehensive Bayesian analysis of the 3D dynamics of high-energy nuclear collisions is presented. We perform a systematic model-to-data comparison using simulations of large and small collision systems, and a broad range of measurements from the PHENIX, STAR, PHOBOS, and BRAHMS collaborations spanning nearly two decades of RHIC operations. In particular, we perform fully 3D multi-stage simulations including rapidity-dependent energy deposition with global energy conservation using the 3D Glauber model, along with relativistic viscous hydrodynamics with MUSIC. We calibrate the model on rapidity- and $p_T$-differential observables and analyze the respective constraints on initial state and transport properties they provide. We emphasize the additional constraints provided by rapidity-dependent measurements, the differences in large and small system calibrations, and the tension exhibited by particular observables. We use our calibrated model to make predictions of observables in p-Au and $^3$He-Au collisions. Furthermore, we facilitate direct comparison of experimental measurements by highlighting the dependence of flow measurements on the rapidity of the regions of interest and reference, as well as the importance of the centrality selection. In particular, we examine the apparent differences between the STAR and PHENIX $v_2$ and $v_3$ measurements in small systems."
     },
     {
+        "id": 3064738,
+        "url": "https://inspirehep.net/literature/3064738",
+        "title": "Transport-based initial conditions for heavy-ion collisions at finite densities",
+        "author": "Roch, H.",
+        "et_al": "et al.",
+        "first_author_affiliation": "Wayne State U.",
+        "earliest_date": "2025-10-08",
+        "date": "October 08, 2025",
+        "earliest_year": 2025,
+        "doi": "10.1103/nvyy-kxhd",
+        "arxiv_eprint": "2510.06996",
+        "abstract": "We employ the SMASH transport model to provide event-by-event initial conditions for the energy-momentum tensor and conserved charge currents in hydrodynamic simulations of relativistic heavy-ion collisions. We study the fluctuations and dynamical evolution of three conserved charge currents (net baryon, net electric charges, and net strangeness) with a four-dimensional lattice-QCD-based equation\u00a0of state, NEOS-4D, in the hydrodynamic phase. Out-of-equilibrium corrections at the particlization are generalized to finite densities to ensure the conservation of energy, momentum, and the three types of charges. These theoretical developments are integrated within the X-SCAPE code as a unified framework for studying the nuclear matter properties in the Beam Energy Scan program.",
+        "journal": "Phys.Rev.C",
+        "volume": "113",
+        "issue": "2",
+        "pages": "2",
+        "pub_year": "2026"
+    },
+    {
         "id": 2937165,
         "url": "https://inspirehep.net/literature/2937165",
         "title": "Extraction of jet-medium interaction details through jet substructure for inclusive and gamma-tagged jets",
