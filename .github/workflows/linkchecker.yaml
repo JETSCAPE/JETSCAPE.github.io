@@ -30,9 +30,8 @@ jobs:
       - name: run linkchecker
         run: |
           cd $GITHUB_WORKSPACE/
-          nohup python3 -m http.server </dev/null >/dev/null 2>&1 &
-          export LOCAL_HOST=$(hostname -i)
-          linkchecker --verbose --check-extern http://${LOCAL_HOST}:8000/nav.html
+          nohup python3 -m http.server 8000 --bind 127.0.0.1 </dev/null >/tmp/jetsp_http.log 2>&1 &
 
-
- 
+          # run LinkChecker but ignore known external resources (tag managers)
+          # that tend to block automated requests
+          linkchecker --verbose --check-extern --ignore-url 'https://www.googletagmanager.com/.*' http://127.0.0.1:8000/nav.html
