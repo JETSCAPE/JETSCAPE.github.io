@@ -63,19 +63,6 @@
         "pub_year": "2025"
     },
     {
-        "id": 2906076,
-        "url": "https://inspirehep.net/literature/2906076",
-        "title": "Enhanced signal of momentum broadening in hard splittings for $\\gamma$-tagged jets in a multistage approach",
-        "author": "Tachibana, Y.",
-        "et_al": "et al.",
-        "first_author_affiliation": "Akita Intl. U.",
-        "earliest_date": "2025-03-30",
-        "date": "March 30, 2025",
-        "earliest_year": 2025,
-        "arxiv_eprint": "2503.23693",
-        "abstract": "We investigate medium-induced modifications to jet substructure observables that characterize hard splitting patterns in central Pb-Pb collisions at the top energy of the Large Hadron Collider (LHC). Using a multistage Monte Carlo simulation of in-medium jet shower evolution, we explore flavor-dependent medium effects through simulations of inclusive and $\\gamma$-tagged jets. The results show that quark jets undergo a non-monotonic modification compared to gluon jets in observables such as the Pb-Pb to $p$-$p$ ratio of the Soft Drop prong angle $r_g$, the relative prong transverse momentum $k_{T,g}$ and the groomed mass $m_g$ distributions. Due to this non-monotonic modification, $\\gamma$-tagged jets, enriched in quark jets, provide surprisingly clear signals of medium-induced structural modifications, distinct from effects dominated by selection bias. This work highlights the potential of hard substructures in $\\gamma$-tagged jets as powerful tools for probing the jet-medium interactions in high-energy heavy-ion collisions. All simulations for $\\gamma$-tagged jet analyses carried out in this paper used triggered events containing at least one hard photon, which highlights the utility of these observables for future Bayesian analysis."
-    },
-    {
         "id": 2873348,
         "url": "https://inspirehep.net/literature/2873348",
         "title": "Hybrid Hadronization -- A Study of In-Medium Hadronization of Jets",
@@ -104,24 +91,6 @@
         "journal": "Phys.Rev.C",
         "volume": "111",
         "issue": "6",
-        "pub_year": "2025"
-    },
-    {
-        "id": 2818238,
-        "url": "https://inspirehep.net/literature/2818238",
-        "title": "Bayesian inference analysis of jet quenching using inclusive jet and hadron suppression measurements",
-        "author": "Ehlers, R.",
-        "et_al": "et al.",
-        "first_author_affiliation": "UC, Berkeley, LBNL, NSD",
-        "earliest_date": "2024-08-15",
-        "date": "August 15, 2024",
-        "earliest_year": 2024,
-        "doi": "10.1103/PhysRevC.111.054913",
-        "arxiv_eprint": "2408.08247",
-        "abstract": "The JETSCAPE Collaboration reports a new determination of the jet transport parameter <math><mover accent=\"true\"><mi>q</mi><mo>\u0302</mo></mover></math> in the quark-gluon plasma (QGP) using Bayesian inference, incorporating all available inclusive hadron and jet yield suppression data measured in heavy-ion collisions at the BNL Relativistic Heavy Ion Collider (RHIC) and the CERN Large Hadron Collider (LHC). This multi-observable analysis extends the previously published JETSCAPE Bayesian inference determination of <math><mover accent=\"true\"><mi>q</mi><mo>\u0302</mo></mover></math>, which was based solely on a selection of inclusive hadron suppression data. jetscape is a modular framework incorporating detailed dynamical models of QGP formation and evolution, and jet propagation and interaction in the QGP. Virtuality-dependent partonic energy loss in the QGP is modeled as a thermalized weakly coupled plasma, with parameters determined from Bayesian calibration using soft-sector observables. This Bayesian calibration of <math><mover accent=\"true\"><mi>q</mi><mo>\u0302</mo></mover></math> utilizes active learning, a machine-learning approach, for efficient exploitation of computing resources. The experimental data included in this analysis span a broad range in collision energy and centrality, and in transverse momentum. In order to explore the systematic dependence of the extracted parameter posterior distributions, several different calibrations are reported, based on combined jet and hadron data; on jet or hadron data separately; and on restricted kinematic or centrality ranges of the jet and hadron data. Tension is observed in comparison of these variations, providing new insights into the physics of jet transport in the QGP and its theoretical formulation.",
-        "journal": "Phys.Rev.C",
-        "volume": "111",
-        "issue": "5",
         "pub_year": "2025"
     },
     {
