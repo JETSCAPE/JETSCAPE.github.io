@@ -13,6 +13,21 @@
         "abstract": "A comprehensive Bayesian analysis of the 3D dynamics of high-energy nuclear collisions is presented. We perform a systematic model-to-data comparison using simulations of large and small collision systems, and a broad range of measurements from the PHENIX, STAR, PHOBOS, and BRAHMS collaborations spanning nearly two decades of RHIC operations. In particular, we perform fully 3D multi-stage simulations including rapidity-dependent energy deposition with global energy conservation using the 3D Glauber model, along with relativistic viscous hydrodynamics with MUSIC. We calibrate the model on rapidity- and $p_T$-differential observables and analyze the respective constraints on initial state and transport properties they provide. We emphasize the additional constraints provided by rapidity-dependent measurements, the differences in large and small system calibrations, and the tension exhibited by particular observables. We use our calibrated model to make predictions of observables in p-Au and $^3$He-Au collisions. Furthermore, we facilitate direct comparison of experimental measurements by highlighting the dependence of flow measurements on the rapidity of the regions of interest and reference, as well as the importance of the centrality selection. In particular, we examine the apparent differences between the STAR and PHENIX $v_2$ and $v_3$ measurements in small systems."
     },
     {
+        "id": 3137932,
+        "url": "https://inspirehep.net/literature/3137932",
+        "title": "Phenomenological overview of jets in QGP (Jetscape)",
+        "author": "Sirimanna, Chathuranga",
+        "earliest_date": "2025-12-29",
+        "date": "December 29, 2025",
+        "earliest_year": 2025,
+        "doi": "10.22323/1.499.0246",
+        "abstract": "Jets, originating from high-energy partons produced in the initial hard scatterings of heavy-ion collisions, serve as powerful probes of the quark--gluon plasma (QGP). As they traverse the strongly interacting medium, jets lose energy through both scattering and radiative processes, leading to characteristic modifications in jet observables. A quantitative understanding of jet quenching requires modeling multi-stage jet evolution, as different energy and virtuality regimes of partons demand distinct theoretical treatments. This contribution provides an overview of the phenomenology of jets in QGP, discusses the theoretical basis for multi-stage energy-loss frameworks such as \\textsc{JETSCAPE}/\\textsc{XSCAPE}, and highlights how these frameworks enable simultaneous description of leading hadron and jet spectra.",
+        "journal": "PoS",
+        "volume": "LHCP2025",
+        "pages": "246",
+        "pub_year": "2026"
+    },
+    {
         "id": 3064738,
         "url": "https://inspirehep.net/literature/3064738",
         "title": "Transport-based initial conditions for heavy-ion collisions at finite densities",
