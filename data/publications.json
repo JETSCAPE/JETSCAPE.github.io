@@ -15,16 +15,16 @@
     {
         "id": 3137932,
         "url": "https://inspirehep.net/literature/3137932",
-        "title": "Phenomenological overview of jets in QGP (Jetscape)",
+        "title": "Phenomenological overview of jets in QGP",
         "author": "Sirimanna, Chathuranga",
+        "first_author_affiliation": "Duke U.",
         "earliest_date": "2025-12-29",
         "date": "December 29, 2025",
         "earliest_year": 2025,
         "doi": "10.22323/1.499.0246",
-        "abstract": "Jets, originating from high-energy partons produced in the initial hard scatterings of heavy-ion collisions, serve as powerful probes of the quark--gluon plasma (QGP). As they traverse the strongly interacting medium, jets lose energy through both scattering and radiative processes, leading to characteristic modifications in jet observables. A quantitative understanding of jet quenching requires modeling multi-stage jet evolution, as different energy and virtuality regimes of partons demand distinct theoretical treatments. This contribution provides an overview of the phenomenology of jets in QGP, discusses the theoretical basis for multi-stage energy-loss frameworks such as \\textsc{JETSCAPE}/\\textsc{XSCAPE}, and highlights how these frameworks enable simultaneous description of leading hadron and jet spectra.",
+        "abstract": "Jets, originating from high-energy partons produced in the initial hard scatterings of heavy-ion collisions, serve as powerful probes of the quark\u2013gluon plasma (QGP). As they traverse the strongly interacting medium, jets lose energy through both scattering and radiative processes, leading to characteristic modifications in jet observables. A quantitative understanding of jet quenching requires modeling multi-stage jet evolution, as different energy and virtuality regimes of partons demand distinct theoretical treatments. This contribution provides an overview of the phenomenology of jets in QGP, discusses the theoretical basis for multi-stage energy-loss frameworks such as JETSCAPE/XSCAPE, and highlights how these frameworks enable simultaneous description of leading hadron and jet spectra.",
         "journal": "PoS",
         "volume": "LHCP2025",
-        "pages": "246",
         "pub_year": "2026"
     },
     {
