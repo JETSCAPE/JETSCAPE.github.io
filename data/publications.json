@@ -1,5 +1,21 @@
 [
     {
+        "id": 3153079,
+        "url": "https://inspirehep.net/literature/3153079",
+        "title": "Comprehensive study of jet substructure using a multi-stage jet evolution framework",
+        "author": "Sirimanna, Chathuranga",
+        "et_al": "et al.",
+        "first_author_affiliation": "Duke U. (main)",
+        "earliest_date": "2026-04-17",
+        "date": "April 17, 2026",
+        "earliest_year": 2026,
+        "doi": "10.1051/epjconf/202636410009",
+        "abstract": "We present a comprehensive study of jet substructure modifications in heavy-ion collisions using the JETSCAPE framework. Our approach utilizes the multi-stage jet energy loss description, which includes suppression of jet-medium interaction at high virtuality, reflecting the virtuality dependence of the process. The parameters used in our simulations are tuned to reproduce hadron RAA and inclusive jet RAA, particularly in the high-pT region at 5.02 TeV. Using these simulations, we analyze key observables such as Soft Drop observables, jet mass, and fragmentation functions. Our results show good agreement with current experimental data, highlighting the model's reliability. This study provides a solid baseline for further detailed investigations of jet structures in heavy-ion collisions, offering insights into jet-medium interactions and their effects on jet evolution.",
+        "journal": "EPJ Web Conf.",
+        "volume": "364",
+        "pub_year": "2026"
+    },
+    {
         "id": 3111362,
         "url": "https://inspirehep.net/literature/3111362",
         "title": "Longitudinal dynamics of large and small systems from a 3D Bayesian calibration of RHIC top-energy collision data",
