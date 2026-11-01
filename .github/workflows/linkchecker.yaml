@@ -18,20 +18,29 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
       - name: Install Dependencies
         run: |
-          pip3 install --upgrade pip
-          pip3 install linkchecker==10.2.1
-          pip3 install requests
+          python -m pip install --upgrade pip
+          python -m pip install linkchecker==10.2.1
+          python -m pip install requests
+
       - name: check json file links
         run: |
-          cd $GITHUB_WORKSPACE/tests
-          python3 linkchecker.py $GITHUB_WORKSPACE/data
+          cd "$GITHUB_WORKSPACE/tests"
+          python linkchecker.py "$GITHUB_WORKSPACE/data"
+
       - name: run linkchecker
         run: |
-          cd $GITHUB_WORKSPACE/
-          nohup python3 -m http.server 8000 --bind 127.0.0.1 </dev/null >/tmp/jetsp_http.log 2>&1 &
+          cd "$GITHUB_WORKSPACE"
+          nohup python -m http.server 8000 --bind 127.0.0.1 </dev/null >/tmp/jetsp_http.log 2>&1 &
 
-          # run LinkChecker but ignore known external resources (tag managers)
-          # that tend to block automated requests
-          linkchecker --verbose --check-extern --ignore-url 'https://www.googletagmanager.com/.*' http://127.0.0.1:8000/nav.html
+          # Run LinkChecker, ignoring known external resources
+          linkchecker --verbose --check-extern \
+            --ignore-url 'https://www.googletagmanager.com/.*' \
+            http://127.0.0.1:8000/nav.html
